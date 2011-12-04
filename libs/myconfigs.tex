@@ -1,0 +1,39 @@
+\lstset{extendedchars=true, 
+				basicstyle=\ttfamily,
+				commentstyle=\color{OliveGreen},
+				keywordstyle=\color{keywordColor}\bfseries,
+				stringstyle=\color{Blue},
+				identifierstyle=\ttfamily,
+				showstringspaces=false,
+				columns=flexible, tabsize=4,
+                title=\lstname,
+				numbers=left, numberstyle=\small,
+				numbersep=0.3cm, breaklines=true,
+				breakatwhitespace=true,
+				frame=shadowbox, rulesepcolor=\color{gray}, 
+				backgroundcolor=\color{codeBackgroundColor}}
+
+\hypersetup{ %pdftex,
+						pdfauthor={\docAuthor},
+						pdfsubject={\docCourse},
+						pdftitle={\docTitle}, 
+						colorlinks,
+						citecolor=black,
+						linkcolor=\tocTextColor}
+
+\citestyle{chicago}
+\bibliographystyle{chicago}        %BibTeX style Config
+
+%PDFBookmarks hack. Controlled from preamble
+\newboolean{doPDFBookmarkhack}
+\ifdefined\usePDFBookmarkhack
+\setboolean{doPDFBookmarkhack}{\usePDFBookmarkhack}
+\else
+\setboolean{doPDFBookmarkhack}{true}
+\fi
+\ifthenelse{\boolean{doPDFBookmarkhack}}%
+{ 
+\renewcommand{\thesection}{\hspace*{-5.6mm}}
+\renewcommand{\thesubsection}{\hspace*{-4.5mm}}
+\renewcommand{\thesubsubsection}{\hspace*{-4.4mm}}}
+{}

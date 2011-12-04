@@ -1,0 +1,40 @@
+\usepackage{amsmath, amssymb,	mathtools, bm}	%Used for Math
+\usepackage{gauss}	%Matrix ops. See 
+%http://mirrors.dotsrc.org/ctan/macros/latex/contrib/gauss/gauss-doc.pdf
+\usepackage{xfrac} % Used for fractions in lines of text. \sfrac{}{}
+%==================================================================================================
+
+% From http://texblog.net/latex-archive/maths/amsmath-matrix/
+% Makes augmented matrix possible with e.g. pmatrix if you provide the parameters correctly.
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
+
+% Numbersystems definitions
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Q}{\mathbb{Q}}
+
+% Shortcuts
+\newcommand{\myand}{\wedge}
+\newcommand{\myor}{\vee}
+\newcommand{\myset}[1]{\{ #1 \}}
+\newcommand{\nin}{\not \in}
+\newcommand{\myabs}[1]{\left | #1 \right |}
+\newcommand{\mysetminus}[1]{\setminus \{ #1 \}}
+\newcommand{\myisom}[1]{\overset{\sim}{#1}}
+\newcommand{\myisomto}{\overset{\sim}{\rightarrow}}
+\newcommand{\myisomorfto}{\overset{\sim}{=}}
+\newcommand{\myto}[2]{#1,\ldots,#2}
+
+% Modulo
+\newcommand{\mycong}[2]{\equiv #1 \pmod{#2}}
+
+%Fractions
+\newcommand{\myfrac}[2]{\left(\frac{#1}{#2}\right)}

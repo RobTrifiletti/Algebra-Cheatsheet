@@ -1,0 +1,241 @@
+\section{Gröbner baser (5)}
+\subsection{Polynomier i flere variable (5.1)}
+\label{Polynomier i flere variable (5.1)}
+Vi husker hvordan vi definerede en \nameref{Polynomiumsring} i en variabel. Vi
+udvider nu dette til en polynomiumsring i flere variable $R[\myto{X_1}{X_n}]$
+som
+\begin{equation*}
+  R[\myto{X_1}{X_n}] = R[\N^n] = 
+  \myset{f : \N^n \to R \mid f(v) = 0, \myabs{v} \gg 0}
+\end{equation*}
+hvor $v = (\myto{v_1}{v_n}) \in \N^n$ og $\myabs{v} = v_1 + \cdots + v_n$.
+
+Et polynomium $f \in R[\myto{X_1}{X_n}]$ er altså det samme som en afbildning
+\begin{equation*}
+  f: \N^n \to R
+\end{equation*}
+der er ikke-nul for kun endeligt mange $v$.
+
+Vi lader $X^v \in R[\N^n]$ være afbildningen
+\begin{equation*}
+  X^v(w) =  
+  \left\{ 
+  \begin{array}{l l}
+    1 & \quad \text{if $v = w$}\\
+    0 & \quad \text{if $v \neq w$}\\
+  \end{array} \right.
+\end{equation*}
+
+Med denne notation kan vi nu skrive polynomier i flere variable, $f \in
+R[\N^n]$, som en endelig sum
+\begin{equation*}
+  f = \sum_{v \in N^n} a_v X^v
+\end{equation*}
+hvor $a_v \in R$.
+
+Vi definerer addition af to polynomier $f, g \in R[\N^n]$ på følgende vis
+\begin{equation*}
+  f + g = (f + g)(v) = f(v) + g(v)
+\end{equation*}
+
+og multiplikation $fg$ som den endelige sum
+\begin{equation*}
+  (fg)(v) = \sum_{v_1 + v_2 = v} f(v_1) g(v_2)
+\end{equation*}
+hvor $v_1, v_2 \in \N^n$.
+
+Bemærk at
+\begin{enumerate}[(i)]
+  \item $0 \in R$ er det neutrale element for $+$.
+  \item Afbildningen $X^{(0,0,\ldots,0)}$ der afbilder 0-vektoren i $\N^n$ til
+  $1 \in R$ og alt andet til $0 \in R$ til at være det neutrale element for
+  $\cdot$.
+\end{enumerate}
+
+Ved notationen $R[\myto{X_1}{X_n}]$ for $R[\N^n]$ menes
+\begin{enumerate}[(i)]
+  \item $X_1 = X^{(1,0,\ldots,0)}$
+  \item $X_2 = X^{(0,1,\ldots,0)}$
+  \item $X_n = X^{(0,0,\ldots,1)}$
+\end{enumerate}
+
+Et \textit{led} er et polynomium $rX^v \in R[\N^n]$, hvor $r \in
+R\mysetminus{0}$ kaldes \textit{koefficienten}.
+
+Som eksempel kan vi skrive polynomiet $f$ op på to ens måder, en formel og en
+konkret. De er ækvivalente
+\begin{align*}
+  f &= 2X^{(0,0,0)} + 2X^{(1,0,3)} + X^{(2,1,0)} - X^{(0,1,1)} + 3X^{(1,1,1)}
+  \in \Z[\N^3]\\
+    &= 2 + 2TZ^3 + T^2 Y - YZ + 3TYZ \in \Z[T,Y,Z] 
+\end{align*}
+hvor $T = X^{(1,0,0)}, Y = X^{(0,1,0)}$ og $Z = X^{(0,0,1)}$. Det formelle
+polynomium er nu udtrykt ved de 3 variable $T,Y,Z$.
+
+
+
+\subsubsection{Termordning}
+\label{Termordning}
+Def. 5.1.2: Mængden $\N^n$, bestående af $n$-tupler af naturlige tal, har en
+komponentvis addition $+$ med nul-vektoren $0 = (0,\ldots,0)$. En
+\nameref{Partiel ordning} $\leq$ på $\N^n$ kaldes en termordning hvis
+\begin{enumerate}[(i)]
+  \item $\leq$ er en \nameref{Total ordning}.
+  \item $0 \leq v$
+  \item $v_1 \leq v_2 \Rightarrow v_1 + v \leq v_2 + v$
+\end{enumerate}
+$\forall v, v_1, v_2 \in N^n$.
+
+\subsubsection{Leksikografisk ordning}
+\label{Leksikografisk ordning}
+Vi definerer den leksikografiske ordning $\leq_{lex}$ på $\N^n$ ved
+\begin{equation*}
+  (v_1,\ldots,v_n) \leq_{lex} (w_1,\ldots,w_n)
+\end{equation*}
+hvis en af følgende gælder
+\begin{align*}
+  &(v_1 < w_1) \quad \text{eller}\\
+  &(v_1 = w_1) \text{ og } (v_2 < w_2) \quad \text{eller}\\
+  &(v_1 = w_1) \text{ og } (v_2 = w_2) \text{ og } (v_3 < w_3) \quad \text{etc}
+\end{align*}
+Dette vil sige normal alfabetisk ordning. F.eks. $(1,1,3) \leq_{lex} (1,2,3)$
+da $1 < 2$ og $(4,5,1) \leq_{lex} (4,5,3)$ da $1 < 3$. Den leksikografiske
+ordning er en \nameref{Termordning}.
+
+\subsubsection{Graderet leksikografisk ordning}
+\label{Graderet leksikografisk ordning}
+Lad $\myabs{v} = v_1 + \cdots + v_n$, hvor $v = (v_1,\ldots,v_n) \in \N^n$. Vi
+definerer nu den graderede leksikografiske ordning ved
+\begin{equation*}
+  (v_1,\ldots,v_n) \leq_{grlex} (w_1,\ldots,w_n)
+\end{equation*}
+hvis
+\begin{align*}
+  &\myabs{v} < \myabs{w} \quad \text{eller}\\
+  &\myabs{v} = \myabs{w} \text{ og } v \leq_{lex} w
+\end{align*}
+F.eks. $(2,1,1) \leq_{grlex} (1,2,3)$, da $(2 + 1 + 1 < 1 + 2 + 3)$, selvom\\
+$(2,1,1) \geq_{lex} (1,2,3)$. Den graderede leksikografiske ordning er en
+\nameref{Termordning}.
+
+\subsubsection{Lemma 5.1.5 (Dickson)}
+\label{Lemma 5.1.5 (Dickson)}
+Lad $S$ være en delmængde af $\N^n$. Så er der en endelig mængde af vektorer
+$v_1,\ldots,v_r \in S$ sådan at
+\begin{equation*}
+  S \subseteq (v_1 + \N^n) \cup \cdots \cup (v_r + \N^n)
+\end{equation*}
+hvor $v_i + \N^n = \myset{v_i + w \mid w \in \N^n}$ for en vektor $v_i \in
+\N^n$.
+
+\subsubsection{Korollar 5.1.7}
+\label{Korollar 5.1.7}
+En \nameref{Termordning} $\leq$ på $\N^n$ er en \nameref{Velordning}.
+
+\subsection{Initialterm (5.2)}
+\label{Initialterm (5.2)}
+\subsubsection{Initialterm}
+\label{Initialterm}
+Def. 5.2.1: Lad
+\begin{equation*}
+  f = \sum_{v \in \N^n} a_v X^v
+\end{equation*}
+være et ikke-nul polynomium i $R[\N^n]$ og $\leq$ er \nameref{Termordning} på
+$\N^n$.
+
+Initialtermet af $f$ mht. $\leq$ er defineret som
+\begin{equation*}
+  in_{\leq}(f) = a_w X^w
+\end{equation*}
+hvor $w = max_{\leq}\myset{v \in \N^n \mid a_v \neq 0}$.
+
+F.eks. Lad
+\begin{equation*}
+  f = X^2 + XY + Y + Y^3 + X^5 \in \Z[X,Y]
+\end{equation*}
+hvor $X = X^{(1,0)}$ og $Y = X^{(0,1)}$ i $\Z[\N^n]$. Derved er
+\begin{equation*}
+  f = X^{(2,0)} + X^{(1,1)} + X^{(0,1)} + X^{(0,3)} + X^{(5,0)} \in \Z[\N^2]
+\end{equation*}
+Lader vi nu $\leq = \leq_{lex}$ får vi
+\begin{equation*}
+  (5,0) \geq (2,0) \geq (1,1) \geq (0,3) \geq (0,1)
+\end{equation*}
+Efter denne orden skulle man skrive $f = X^5 + X^2 + XY + Y^3 + Y$. Derved er
+\begin{equation*}
+  in_{\leq}(f) = X^5
+\end{equation*}
+
+\subsubsection{Bemærkning 5.2.3}
+\label{Bemaerkning 5.2.3}
+Lad $R$ være et \nameref{Integritetsomraade} og $f,g \in R[\myto{X_1}{X_n}]$.
+Så gælder
+\begin{equation*}
+  in_{\leq}(fg) = in_{\leq}(f)in_{\leq}(g)
+\end{equation*}
+Dette er en analogt med \nameref{Prop. 4.2.2}, for polynomier i en variabel.
+
+\subsection{Divisionsalgoritmen (5.3)}
+\label{Divisionsalgoritmen (5.3)}
+\subsubsection{Prop. 5.3.1}
+\label{Prop. 5.3.1}
+Prop. 5.3.1: Hold en \nameref{Termordning} $\leq$ på $\N^n$ fast. Lad $f \in
+R[\myto{X_1}{X_n}] \mysetminus{0}$ og antag at $\myto{f_1}{f_m} \in
+R[\myto{X_1}{X_n}]$ er en sekvens af ikke-nul polynomier. Så eksisterer der
+$a_1,\ldots,a_m, r \in R[\myto{X_1}{X_n}]$ sådan at
+\begin{equation*}
+  f = a_1 f_1 + \cdots + a_m f_m + r
+\end{equation*}
+hvor $r = 0$ eller ingen af leddene i $r$ er delelig med
+$in_{\leq}(f_1),\ldots,in_{\leq}(f_n)$. Desuden er $in_{\leq}(a_i f_i) \leq
+in_{\leq}(f)$ hvis $f_i \neq 0$. Se \nameref{Prop. 4.2.4} for algoritmen i en
+variabel.
+
+\subsubsection{Def. 5.3.2}
+\label{Def. 5.3.2}
+Antag $f \in R[\myto{X_1}{X_n}]$ og lad $F = (f_1,\ldots,f_m)$ være en sekvens
+af ikke-nul polynomier i $R[\myto{X_1}{X_n}]$. Vi lader $f^F$ beskrive resten
+$r$ af $f$ efter division med $F$ vha. \nameref{Prop. 5.3.1}.
+
+\subsection{Gröbnerbaser (5.4)}
+\label{Gröbnerbaser (5.4)}
+
+\subsubsection{Gröbnerbasis}
+\label{Gröbnerbasis}
+Lad $R$ være et \nameref{Legeme}.
+
+En mængde af ikke-nul polynomier
+\begin{equation*}
+  F = (f_1,\ldots,f_m) \subseteq R[X_1,\ldots,X_n]
+\end{equation*} 
+kaldes en Gröbnerbasis for et \nameref{Ideal} i $R[X_1,\ldots,X_n]$ mht. en
+\nameref{Termordning} $\leq$ hvis 
+\begin{enumerate}[(i)]
+  \item $F \subseteq I$
+  \item For alle $f \in I \setminus{0}$,
+  \begin{equation*}
+    in{\leq}(f_i) \mid in_{\leq}(f)
+  \end{equation*}
+  for et $i = 1,\ldots,m$.
+\end{enumerate}
+Mængden $F$ kaldes en Gröbnerbasis mht en termordning $\leq$ hvis den er en
+Gröbnerbasis for idealet \nameref{f_1..f_m} mht. $\leq$.
+
+\subsubsection{Prop. 5.4.2}
+\label{Prop. 5.4.2}
+Lad $R$ være et \nameref{Legeme}. Lad $G = (f_1, \ldots, f_m)$ være en
+\nameref{Gröbnerbasis} mht en \nameref{Termordning} $\leq$. For et polynomium
+$f \in R[X_1,\ldots,X_n]$ har vi
+\begin{equation*}
+  f \in I \iff f^G = 0
+\end{equation*}
+hvor $I =$ \nameref{f_1..f_m}. Se \nameref{Def. 5.3.2} for $f^G$.
+
+\subsubsection{Korollar 5.4.5}
+\label{Korollar 5.4.5}
+Lad $R$ være et \nameref{Legeme}. Lad $G = (f_1, \ldots, f_m) \subseteq
+R[X_1,\ldots,X_n]$ være en \nameref{Gröbnerbasis} for \nameref{Ideal}et $I
+\subseteq R$ mht en \nameref{Termordning}. Så er
+\begin{equation*}
+  I = \text{\nameref{f_1..f_m}}
+\end{equation*}

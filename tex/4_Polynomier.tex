@@ -1,0 +1,451 @@
+\section{Polynomier (4)}
+\subsection{Polynomiumsringe (4.1)}
+\label{Polynomiumsringe (4.1)}
+Lad $R$ være en \nameref{Ring} og $R[\N]$ mængden af afbildninger
+\begin{equation*}
+  f: \N \rightarrow R
+\end{equation*}
+sådan at $f(n) = 0$ for $n \gg 0$, hvilket vil sige at der findes et tal $N$, så
+$f(n)=0$ for alle $n>N$.
+
+Givet $f,g \in R[\N]$ definerer vi deres sum 
+\begin{align*}
+  (f + g)(n) &= f(n) + g(n)\\
+             &= (\aPoly) + (\bPoly)\\
+             &= (a_0 + b_0) + (a_1 + b_1)x + \cdots + (a_n + b_n)x^n\\
+             &= \sum_{i=0}^{n}a_i x^i + \sum_{i=0}^{n}b_i x^i\\ 
+             &= \sum_{i=0}^{n}(a_i + b_i) x^i
+\end{align*}
+og deres produkt
+\begin{align*}
+  (fg)(n) &= f(n)g(n)\\
+             &= (\aPoly)(\bPoly)\\
+             &= (a_0 b_0) + (a_1 b_0 + a_0 b_1)x + (a_2 b_0 + a_1 b_1 + a_0
+             b_2)x^2 + \cdots\\
+             &= \sum_{i=0}^{n}a_i x^i \sum_{j=0}^{n}b_i x^i\\
+             &= \sum_{k=0}^{2n} \sum_{i+j = k}(a_i b_j)x^k
+\end{align*}
+
+Vi lader $X^i \in R[\N]$ være afbildningen
+\begin{equation*}
+  X^i(n) =  
+  \left\{ 
+  \begin{array}{l l}
+    1 & \quad \text{if $n = i$}\\
+    0 & \quad \text{if $n \neq i$}\\
+  \end{array} \right.
+\end{equation*}
+
+Vi lader nu elementerne i ringen $a \in R$ være givet ved afbildningen
+\begin{equation*}
+    a(n) =  
+  \left\{ 
+  \begin{array}{l l}
+    a & \quad \text{if $n = 0$}\\
+    0 & \quad \text{if $n > 0$}\\
+  \end{array} \right.
+\end{equation*}
+
+Derved kan et element $f \in R[\N]$ skrives som
+\begin{equation*}
+  f = \aPolyX
+\end{equation*}
+hvor $a_i = f(i)$ og $f_i = 0$ hvis $i > n$.
+
+\subsubsection{Polynomiumsring}
+\label{Polynomiumsring}
+Vi definerer polynomiumsringen $R[X]$ i en variabel over \nameref{Ring}en $R$,
+som $R[\N]$. $X = X^1 \in R[\N]$. Et polynomium $f \in R[X]$ kan skrives
+\begin{equation*}
+  \aPolyX
+\end{equation*}
+\begin{enumerate}[(i)]
+  \item Et \textit{led} er et polynomium på formen $aX^m$, hvor $a \in
+  R\setminus \myset{0}$.
+  \item $a_0,\ldots,a_n \in R$ kaldes f's koefficienter.
+  \item Hvis $a_n \neq 0$ er $deg(f) = n$ og $a_n$ er den ledende koefficient.
+  \item $deg(f)$ kaldes graden af $f$ og $a_{deg(f)}X^{deg(f)}$ er det ledende
+  led.
+  \item Et ikke-nul polynomium kaldes normeret hvis dets ledende koefficient er
+  1.
+\end{enumerate} 
+
+\subsubsection{Bemærkning 4.1.3}
+\label{Bemaerkning 4.1.3}
+To polynomier $f = \aPolyX$ og $g = \bPolyXm$ i $R[X]$ er ens $\iff a_0 =
+b_0, a_1=b_1,\ldots$. Dette giver også mening når vi ser polynomier som
+afbildninger $f: \N \rightarrow R$, hvor to afbildninger er ens $\iff$ de
+afbilder til samme værdi for alle $n \in N$.
+
+\subsection{Division af Polynomier (4.2)}
+\label{Division af Polynomier}
+\subsubsection{Prop. 4.2.2}
+\label{Prop. 4.2.2}
+Lad $f, g \in R[X] \mysetminus{0}$. Hvis den ledende koefficient af $f$ eller
+$g$ ikke er en \nameref{Nuldivisor} gælder
+\begin{equation*}
+  deg(fg) = deg(f) + deg(g)
+\end{equation*}
+
+\subsubsection{Prop. 4.2.3}
+\label{Prop. 4.2.3}
+Lad $R$ være et \nameref{Integritetsomraade}. Så er $R[X]^* = R^*$.
+
+\subsubsection{Prop. 4.2.4}
+\label{Prop. 4.2.4}
+Lad $d \in R[X]$ være et ikke-nul polynomium. Antag at den ledende koefficient
+af $d$ ikke er en \nameref{Nuldivisor} i $R$. Givet $f \in R[X]$, eksisterer der
+polynomier $q,r \in R[X]$ sådan at
+\begin{equation*}
+  f = qd + r
+\end{equation*}
+hvor $r = 0$ eller at $d$'s ledende led ikke dividerer nogle af $r$'s led. Se
+\nameref{Entydig rest}.
+
+\subsubsection{Korollar 4.2.5}
+\label{Korollar 4.2.5}
+Lad $d \in R[X]$ være et ikke-nul polynomium. Antag at den ledende koefficient
+af $d$ er invertibel (er en \nameref{Enhed}) i $R$. Givet $f \in R[X]$,
+eksisterer der polynomier $q,r \in R[X]$ sådan at
+\begin{equation*}
+  f = qd + r
+\end{equation*}
+hvor $r = 0$ eller $deg(r) < deg(d)$.
+
+\subsubsection{Def. 4.2.7}
+\label{Def. 4.2.7}
+Polynomiet $r$ i \nameref{Korollar 4.2.5} kaldes resten af $f$ divideret med
+$d$.
+
+
+\subsection{Polynomiumsrødder (4.3)}
+\label{Polynomiumsroedder (4.3)}
+Afbildningen
+\begin{equation*}
+  j: R \rightarrow R[X]
+\end{equation*}
+givet ved $j(r) = r + 0X + 0X^2 + \cdots$ er en \nameref{Injektiv}
+\nameref{Ringhomomorfi}. Billedet $j(R) = R$ og derved ser vi $R$ som en
+\nameref{Delring} af $R[X]$.
+
+\subsubsection{Prop. 4.3.1}
+\label{Prop. 4.3.1}
+Lad $f = \aPolyX \in R[X]$ og $\alpha \in R$. Afbildningen
+$\phi_\alpha: \R[X] \rightarrow R$ givet ved
+\begin{equation*}
+  \phi_\alpha(f) = a_0 + a_1 \alpha + \cdots + a_n \alpha^n 
+\end{equation*}
+er en \nameref{Ringhomomorfi}.
+
+\textit{Vi holder altså et $\alpha$ fast og givet et vilkårligt polynomium kan
+vi indsætte dette $\alpha$ i stedet for $X$ og få en \nameref{Ringhomomorfi}.}
+
+\subsubsection{Rod}
+\label{Rod}
+Lad $f \in R[X]$ være et polynomium. Elementet $\alpha \in R$ siges at være en
+rod i $f$ hvis $f(\alpha) = \phi_\alpha(f) = 0$.
+
+Vi lader $V(f) = \myset{\alpha \in R \mid f(\alpha) = 0}$ være mængden af rødder
+for $f \in R[X]$.
+
+\subsubsection{Korollar 4.3.2}
+\label{Korollar 4.3.2}
+Lad $f \in R[X]$. Så er $\alpha \in R$ en \nameref{Rod} i $f \iff$ $X - \alpha
+\mid f$.
+
+\subsubsection{Multiplicitet af en rod}
+\label{Multiplicitet af en rod}
+Multipliciteten af en \nameref{Rod} $\alpha$ i et ikke-nul polynomium $f$ er den
+største potens $n \in \N$ sådan at
+\begin{equation*}
+  (X - \alpha)^n \mid f
+\end{equation*}
+Multipliciteten af $\alpha$ i $f$ skrives $\nu_\alpha (f)$. Bemærk at
+\begin{enumerate}[(i)]
+  \item $\nu_\alpha (f) \leq deg(f)$.
+  \item $f = (X - \alpha)^{\nu_\alpha(f)}h$, hvor $h(\alpha) \neq 0$.
+\end{enumerate}
+
+\subsubsection{Multipel rod}
+\label{Multipel rod}
+En multipel rod i $f$ er en \nameref{Rod} $\alpha \in R$ med $\nu_\alpha(f) >
+1$.
+
+\subsubsection{Lemma 4.3.4}
+\label{Lemma 4.3.4}
+Lad $R$ være et \nameref{Integritetsomraade} og $f,g \in R[X]$. Så gælder
+\begin{equation*}
+  V(fg) = V(f) \cup V(g)
+\end{equation*}
+
+\subsubsection{Sætning 4.3.5}
+\label{Saetning 4.3.5}
+Lad $R$ være et \nameref{Integritetsomraade} of $f \in R[X]\mysetminus{0}$. Hvis
+$V(f) = \myset{\alpha_1, \ldots,\alpha_r}$ så
+\begin{equation*}
+  f = q(X - \alpha_1)^{\nu_{\alpha_1}(f)}\cdots(X -
+  \alpha_r)^{\nu_{\alpha_r}(f)}
+\end{equation*}
+hvor $q \in R[X]$ og $V(q) = \emptyset$. Antallet af \nameref{Rod}der i $f$,
+talt med multiplicitet, er bundet af graden af $f$, $deg(f)$.
+
+\textit{NB. Gælder kun hvis $R$ er et \nameref{Integritetsomraade}, så ikke i
+$\Z/n\Z$, hvor $n$ er sammensat f.eks.}.
+
+\subsubsection{Differentiering af polynomier}
+\label{Differentiering af polynomier}
+Lad $R$ være en \nameref{Ring} og $f = a_0 + a_1 X + \cdots + a_{n-1} X^{n-1} +
+a_n X^n \in R[X]$. Så siger vi
+\begin{equation*}
+  D(f) = a_1 + \cdots + a_{n-1}(n-1)X^{n-2} + a_n n X^{n-1}
+\end{equation*}
+er den afledede af $f$.
+
+Når vi ser polynomier som afbildninger $f: \N \rightarrow R$, kan ovenstående
+omformuleres til 
+\begin{equation*}
+  D(f)(n-1) = nf(n) \text{ for } n \geq 1
+\end{equation*}
+
+\subsubsection{Lemma 4.3.7}
+\label{Lemma 4.3.7}
+Lad $f,g \in R[X]$ og $\lambda \in R$. Så gælder
+\begin{enumerate}[(i)]
+  \item $D(f + g) = D(f) + D(g)$
+  \item $D(\lambda f) = \lambda D(f)$
+  \item $D(fg) = fD(g) + D(f)g$
+\end{enumerate}
+
+\subsubsection{Lemma 4.3.8}
+\label{Lemma 4.3.8}
+Lad $f,g \in R[X]$.
+\begin{enumerate}[(i)]
+  \item Hvis $f^2 \mid g \Rightarrow f \mid D(g)$
+  \item Et element $\alpha \in R$ er en \nameref{Multipel rod} i $f \iff \alpha$
+  er en \nameref{Rod} i $f$ og $D(f)$.
+\end{enumerate}
+
+\subsubsection{Bemærkning 4.3.9}
+\label{Bemaerkning 4.3.9}
+Hvis \nameref{Polynomiumsring}en $R[X]$ har en primisk karakteristik $p > 0$
+(\nameref{Karakteristik af en ring}) findes der mange ikke-konstante polynomier
+$f \in R[X]$, hvor $D(f) = 0$.
+
+F.eks. $X^p \in $ \nameref{F_p}$[X]$. Her er
+\begin{equation*}
+  D(X^p) = pX^{p-1} = 0
+\end{equation*}
+da $X^{p-1} \mycong {1}{p}$ ifølge \nameref{Fermats lille saetning}.
+
+Generelt gælder $D(X^n) = 0 \iff p \mid n$ når $X^n \in \F_p [X]$.
+
+\subsection{Cyklotomiske polynomier (4.4)}
+\label{Cyklotomiske polynomier (4.4)}
+\subsubsection{Enhedsrod}
+\label{Enhedsrod}
+Et komplekst tal $\xi$ siges at være en enhedsrod af $n$-te grad for et $n \in
+\N$ hvis $\xi^n = 1$.
+
+Skriver vi enhedsroden $\xi$ i polære koordinater $re^{i\theta} = r(\cos\theta
++ i \sin \theta)$ følger det at $r = 1$ og $\theta = k2\pi i/n$ for $k =
+0,\ldots,n-1$, hvis $\xi$ er af $n$-te grad.
+
+\subsubsection{Lemma 4.4.1}
+\label{Lemma 4.4.1}
+Et komplekst tal $\zeta$ er en \nameref{Primitiv enhedsrod} af $n$-te grad
+$\iff$
+\begin{equation*}
+  \zeta = e^{k2\pi i/n}
+\end{equation*}
+hvor $1 \leq k \leq n$ og $gcd(k,n) = 1$. Husk fra \nameref{Enhedsrod} at
+$\theta = k2\pi i/n$.
+
+Hvis $\zeta$ er en primitiv enhedsrod af $n$-te grad og $\zeta^m \Rightarrow n
+\mid m$.
+
+\subsubsection{Bemærkning}
+\label{Bemaerkning}
+Mængden af enhedsrødder af $n$-te grad er en \nameref{Undergruppe} af $\C^*$.
+Denne undergruppe er isomorf til den \nameref{Cyklisk gruppe} $\Z/n\Z$.
+
+\subsubsection{Cyklotomisk polynomium}
+\label{Cyklotomisk polynomium}
+Def. 4.4.2: Lad $n \in \N$ hvor $n \geq 1$. Det $n$-te cyklotomiske polynomium
+er defineret som polynomiet
+\begin{equation*}
+  \Phi_n(X) = \prod_{1 \leq k \leq n,\text{ } gcd(k,n1)=1} (X - e^{k2\pi i/n})
+\end{equation*}
+i $\C[X]$.
+
+Et cyklotomisk polynomium er et polynomium hvis rødder er alle
+\nameref{Primitiv enhedsrod}er af $n$-te grad. Det ses at det opfylder
+\nameref{Lemma 4.4.1}.
+
+Bemærk at $deg(\Phi_n) = \phi(n)$
+
+Koefficienterne af $\Phi_n$ er altid $= \pm 1$ hvis $n$ er et produkt af two
+forskellige \nameref{Primtal}. Se side 156 for at se de 4 første cykoltomiske
+polynomier.
+
+\subsubsection{Prop. 4.4.3}
+\label{Prop. 4.4.3}
+Lad $n \geq 1$. Så gælder
+\begin{enumerate}[(i)]
+  \item $X^n - 1 = \prod_{d\mid n} \Phi_d(X)$
+  \item Et \nameref{Cyklotomisk polynomium} har heltalskoefficienter
+  \begin{equation*}
+    \Phi_n(X) \in \Z[X]
+  \end{equation*}
+\end{enumerate}
+
+Lad $R$ være en \nameref{Ring}. Den \nameref{Entydig ringhomomorfi fra Z}
+$\kappa: \Z \rightarrow R$ giver en \nameref{Ringhomomorfi}.
+\begin{equation*}
+  \kappa': \Z[X] \rightarrow R[X]
+\end{equation*}
+På denne måde kan vi se et \nameref{Cyklotomisk polynomium} $\Phi_n (X) \in
+\Z[X]$ som polynomiet $\kappa'(\Phi_n) \in R[X]$. Dette leder os tilbage til
+identiteten
+\begin{equation*}
+  X^n - 1 = \prod_{d\mid n} \Phi_d(X)
+\end{equation*}
+i $R[X]$ ved at anvende $\kappa'$ på den tilsvarende identitet i $\Z[X]$.
+
+\subsection{Primitive rødder (4.5)}
+\label{Primitive roedder (4.5)}
+
+\subsubsection{Primitiv enhedsrod}
+\label{Primitiv enhedsrod}
+Def. 4.5.1: Lad $R$ være en \nameref{Ring} og $n \in \N\mysetminus{0}$. Et
+element $\alpha \in R$ siges at være en primitiv \nameref{Enhedsrod} af $n$-te grad i $R$ hvis
+$\alpha^n = 1$ og
+\begin{equation*}
+  a,a^2,..,a^{n-1} \neq 1
+\end{equation*}
+hvor $n \geq 1$.
+
+\subsubsection{Lemma 4.5.2}
+\label{Lemma 4.5.2}
+Lad $\alpha \in R$, hvor $R$ er et \nameref{Integritetsomraade}. Hvis
+$\Phi_n(\alpha) = 0$ og $\alpha$ ikke er en \nameref{Multipel rod} i $X^n - 1
+\in R[X] \Rightarrow \alpha$ er en \nameref{Primitiv enhedsrod} af $n$-te grad i
+$R$.
+
+\subsubsection{Sætning 4.5.3 (Gauss)}
+\label{Saetning 4.5.3 (Gauss)}
+Lad $\F$ være et \nameref{Legeme} og $G \subseteq \F^*$ en endelig
+\nameref{Undergruppe} af \nameref{Enhed}erne i $\F$. Så er $G$ en
+\nameref{Cyklisk gruppe}.
+
+Denne sætning viser at \nameref{F_p}$^*$ er en cyklisk gruppe, hvor $p$ er
+et \nameref{Primtal}.
+
+Et heltal $a$, sådan at $[a]$ frembringer $\F_p^*$, kaldes en primitiv rod
+modulo $p$. En primitiv rod $a$ modulo $p$ tilfredsstiller
+\begin{equation*}
+  \F_p^* = \myset{[1], [a],[a^2],\ldots,[a^{p-2}]}
+\end{equation*}
+Se side 159 for mere om primitive rødder modulo $p$.
+
+\subsection{Idealer i polynomiumsringe (4.6)}
+\label{Idealer i polynomiumsringe (4.6)}
+
+\subsubsection{Prop. 4.6.1}
+\label{Prop. 4.6.1}
+Polynomiumsringen $\F[X]$, hvor $\F$ er et \nameref{Legeme} er en
+\nameref{Euklidisk ring}, et \nameref{Hovedidealomraade} og et
+\nameref{Faktoriel ring}.
+
+\subsubsection{Prop. 4.6.3}
+\label{Prop. 4.6.3}
+Lad $ f \in \F[X]$. Så gælder
+\begin{enumerate}[(i)]
+  \item \nameref{Ideal}et $\langle f \rangle$ er et \nameref{Maksimalt ideal}
+  $\iff f$ er et \nameref{Irreducibelt element}. I dette tilfælde er
+  \nameref{Kvotientring}en
+  \begin{equation*}
+    \F[X]/\langle f \rangle
+  \end{equation*}
+  et \nameref{Legeme}.
+  
+  \item Hvis $f \neq 0$ så er $f$ en \nameref{Enhed} $\iff deg(f) = 0$.
+  \item Hvis $deg(f) = 1$ så er $f$ et \nameref{Irreducibelt
+  element}.
+  \item Hvis $f$ er irreducibelt og $deg(f) > 1$ har $f$ ingen
+  \nameref{Rod}der.
+  \item Hvis $deg(f) = 2$ \textit{eller} $deg(f) = 3$ så er $f$ irreducibelt
+  $\iff f$ ingen rødder har.
+\end{enumerate}
+Se s. 164-165 for yderligere småting omkring idealer.
+
+\subsubsection{Prop. 4.6.7}
+\label{Prop. 4.6.7}
+Lad $R$ være en \nameref{Ring} og
+\begin{equation*}
+  f = \aPolyX \in R[X]
+\end{equation*}
+et normeret (ledende koeff = 1) polynomium med $deg(f) = n > 0$. 
+
+\begin{enumerate}[(i)]
+  \item Så er $R \cap \langle f \rangle = \langle 0 \rangle$.
+  \item Elementerne $[g] = g + \langle f \rangle$ i \nameref{Kvotientring}en
+$R[X]/\langle f \rangle$ kan entydigt udtrykkes som polynomier af grad $ < n$
+\begin{equation*}
+  b_0 + b_1 \alpha + \cdots + b_{n-1}\alpha^{n-1}
+\end{equation*}
+hvor $b_0,\ldots,b_{n-1} \in R$ og $\alpha = [X]$.
+  \item I $R[X]/\langle f \rangle$ har vi identiteten
+\begin{equation*}
+  \alpha^n = - a_0 -a_1 \alpha - \cdots - a_{n-1}\alpha^{n-1}
+\end{equation*}
+\end{enumerate}
+Bemærk at $R$ er en naturlig \nameref{Delring} af $R[X]/\langle f \rangle$. Den
+naturlige
+\nameref{Ringhomomorfi}
+\begin{equation*}
+  \phi: R \rightarrow R[X]/\langle f \rangle
+\end{equation*}
+givet ved $\phi(r) = [r]$ er \nameref{Injektiv}.
+
+\subsubsection{Bemærkning 4.6.8}
+\label{Bemaerkning 4.6.8}
+Hvis $\F$ er et \nameref{Legeme} og $f\in \F[X]$ er et \nameref{Irreducibelt
+element} så er $\langle f \rangle$ et \nameref{Hovedideal} og derved bliver
+$\F[X]/\langle f \rangle$ et udvidelseslegeme $E$ til $\F$.
+
+Nu viser det sig at $\alpha = [X] \in E$ og er en \nameref{Rod} til $f \in
+\F[X] \subseteq E[X]$, da $f(\alpha) = 0$ fra \nameref{Prop. 4.6.7}.
+
+\subsection{Endelige legemer (4.8)}
+\label{Endelige legemer (4.8)}
+\subsubsection{Lemma 4.8.1}
+\label{Lemma 4.8.1}
+Lad $\F$ være et endeligt \nameref{Legeme}. Så er $|\F| = p^n$, hvor $p$ er et
+\nameref{Primtal}, $n \geq 1$ og der eksisterer et \nameref{Irreducibelt
+element} $f \in \F_{p}[X]$ af grad $n$, sådan at
+\begin{equation*}
+  \F \cong \F_p[X]/\langle f \rangle
+\end{equation*}
+
+\subsubsection{Sætning 4.8.2}
+\label{Saetning 4.8.2}
+Der eksisterer et entydigt endeligt \nameref{Legeme} med $p^n$ elementer, hvor
+$p$ er et primtal og $n \geq 1$. Der gælder yderligere
+\begin{enumerate}[(i)]
+  \item Der eksisterer et \nameref{Irreducibelt element} i $\F_p [X]$ af grad
+  $n$.
+  \item Antag at $\F$ og $\F$' er endelige legemer med $p^n$ elementer. Så
+  eksisterer der er Ringisomorfi (\nameref{Ringhomomorfi}) $\F \myisomto
+  \F'$.
+\end{enumerate}
+
+\subsubsection{Lemma 4.8.3}
+\label{Lemma 4.8.3}
+Lad $\tau, d, n \in \N$, hvor $\tau > 1$. Så $t^d - 1 \mid t^n -1 \iff d \mid
+n$.
+
+\subsubsection{Sætning 4.8.5}
+\label{Saetning 4.8.5}
+Der eksisterer et \nameref{Irreducibelt element} i $\F_p [X]$ af grad $n \geq
+1$. Hvis $f$ er irreducibelt og $f \mid \Phi_{p^n - 1}$ i $\F_p [X]$ så er
+$deg(f) = n$.

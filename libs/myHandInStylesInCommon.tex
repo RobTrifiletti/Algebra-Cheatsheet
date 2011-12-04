@@ -1,0 +1,51 @@
+%Uses english as default language if \docLanguage isn't set.
+\ifdefined\docLanguage
+  \usepackage[\docLanguage]{babel}
+\else
+  \usepackage[english]{babel}
+\fi
+
+\usepackage[utf8]{inputenc}           %Encoding is UTF8
+\usepackage[T1]{fontenc}              %European fonts
+\usepackage{graphicx}                 %Used for adding images
+\usepackage{subfig}                   %Used for \subfloat
+\usepackage[dvipsnames]{xcolor}       %Used for adding colors 
+                                      %(http://en.wikibooks.org/wiki/LaTeX/Colors)
+\usepackage{booktabs, threeparttable} %Used for tables and rulers
+\usepackage{listings, fancybox}       %Used for code-quotes and shadowbox
+\usepackage[left=2cm, right=2cm, 
+            top=2cm, bottom=2cm]    
+            {geometry}                %Controls the margin of the document
+            
+\usepackage{hyperref}                 %Used for PDF-Metadata 
+                                      %(http://en.wikibooks.org/wiki/LaTeX/Hyperlinks)
+\usepackage{ulem}                     %Used for strikethrough
+\usepackage{ifthen}                   %Used for boolean conditionals
+\usepackage{natbib}
+\usepackage{dk-bib}                   %BibTeX
+\usepackage{enumerate}                %For better list support
+\input{../libs/mycolors}                      %Loads Custom colors
+\input{../libs/mymath}                        %Loads predefined math commands
+\input{../libs/mycommands}                    %Loads misc commands
+
+\synctex=1                            %Used for forward and backwards search
+
+% ##############################################################################
+\lstset{extendedchars=true, 
+        basicstyle=\ttfamily,
+        commentstyle=\color{OliveGreen},
+        keywordstyle=\color{keywordColor}\bfseries,
+        stringstyle=\color{Blue},
+        identifierstyle=\ttfamily,
+        showstringspaces=false,
+        columns=flexible, tabsize=4,
+                title=\lstname,
+        numbers=left, numberstyle=\small,
+        numbersep=0.3cm, breaklines=true,
+        breakatwhitespace=true,
+        frame=shadowbox, rulesepcolor=\color{gray}, 
+        backgroundcolor=\color{codeBackgroundColor}}
+        
+\citestyle{chicago}
+\bibliographystyle{chicago} %BibTeX style Config
+\parskip 0.2cm

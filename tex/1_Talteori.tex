@@ -1,0 +1,562 @@
+\section{Talteori (1)}
+\subsection{Mængderne $\N$ og $\Z$ (1.1)}
+Se bogen.
+
+\subsection{Division med rest (1.2)}
+\subsubsection{Entydig rest}
+\label{Entydig rest}
+Sætning 1.2.1: Lad $d \in \Z$, hvor $d > 0$. For alle $x \in \Z$ er der en
+entydig rest $r \in \N$ sådan at:
+\begin{equation*}
+  x = qd + r,
+\end{equation*}
+hvor $q \in \Z$ og $0 \leq r < d$.
+
+\textit{Dvs. at når vi dividerer et helt tal med d vil der altid være en entydig
+rest, r hvor der gælder at $0 \leq r < d$}.
+
+\subsubsection{Def. 1.2.2}
+Antag $a = bc$, hvor $a, b, c \in \Z$.
+
+Vi siger så at $c$ er en divisor i $a$. Dette skrives $c \mid a$.
+
+\subsubsection{Restklasse}
+\label{Restklasse}
+Def. 1.2.3: Hvis $x, d \in \Z$, hvor $d > 0$, lader vi
+
+$[x]_d$ udtrykker den \nameref{Entydig rest} $r$, efter division med $d$.
+
+\textit{Bemærk at $[x]_d$ er en mængde. Den består af alle tal der har denne
+rest efter division med $d$. $x$ kaldes her repræsentanten for restklassen.}
+
+
+\subsection{Kongruenser (1.3)}
+\subsubsection{Kongruens}
+\label{Kongruens}
+Def. 1.3.1: Lad $a, b, c \in \Z$. Så er $a$ og $b$ kongruente modulo $c$ hvis
+$c \mid b - a$. 
+
+Dette skrives $a \mycong {b}{c}$.
+
+\subsubsection{Prop. 1.3.2}
+\label{1.3.2}
+Lad $c \in \Z$, hvor $c > 0$. Så gælder:
+\begin{enumerate}[(i)]
+  \item $a \mycong {[a]_c}{c}$
+  \item $a \mycong {b}{c} \iff [a]_c = [b]_c$
+\end{enumerate}
+\textit{Altså a er kongruent til sin egen entydige rest divideret med c (mod c)
+og a er kongruent med b $\iff$ de entydige rester for a,b divideret med c er lig
+hinanden}
+
+\subsubsection{Prop. 1.3.4}
+\label{1.3.4}
+Antag $x_1 \mycong {x_2}{d}$ og $y_1 \mycong {y_2}{d}$. Så gælder:
+\begin{enumerate}[(i)]
+  \item $x_1 + y_1 \mycong {x_2 + y_2} {d}$
+  \item $x_1 y_1 \mycong {x_2 y_2}{d}$
+\end{enumerate}
+for $x_1, x_2, y_1, y_2, d \in \Z$
+
+\textit{Kongruens bliver bevaret ved addition og multiplikation, hvis de er af
+samme modulo d}.
+
+\subsubsection{Reference (1.2)}
+\label{(1.2)}
+Kombinationen af \nameref{1.3.2} og \nameref{1.3.4} giver os følgende:
+\begin{equation*}
+  [xy] = [[x][y]]
+\end{equation*}
+
+\subsubsection{Supp. Noter 1.3}
+Antag $a, b, c \in \Z$ sådan at $a \mycong {b}{c}$. Hvis $d \in \Z$ og $d \mid
+c$, så gælder:
+\begin{equation*}
+  a \mycong {b}{d}
+\end{equation*}
+\textit{Kongruensen mellem a og b bliver bevaret selvom vi erstatter c med en
+af dens faktorer}.
+
+\subsubsection{``Repeated squaring''}
+Se opgaver fra PerspMat.
+
+
+\subsection{Største fælles divisor (1.4)}
+\subsubsection{Lemma 1.4.2}
+\label{1.4.2}
+Lad $m, n \in \Z$. Der eksisterer et entydigt tal $d \in \N$ sådan at:
+\begin{equation*}
+  div(m) \cap div(n) = div(d)
+\end{equation*}
+\textit{Altså er der et entydigt tal d, hvis divisorer er alle divisorer i både
+m og n}.
+
+\subsubsection{Største fælles divisor}
+\label{gcd}
+Def. 1.4.3: Det entydige tal $d$ fra \nameref{1.4.2} kaldes største fælles
+divisor for $m$ og $n$, dette er klart da $d$ er den største divisor i mængden
+$div(d)$ der dividerer $m$ og $n$.
+
+Dette entydige $d$ skrives $gcd(m,n)$
+
+
+\subsection{Euklids algoritme (1.5)}
+\subsubsection{Prop. 1.5.1}
+\begin{enumerate}[(i)]
+  \item $gcd(m,0) = m$ hvis $m \in \N$
+  \item $gcd(m,n) = gcd(m - qn, n)$ for alle $q \in \Z$
+\end{enumerate}
+\textit{(ii) kan også læses som $gcd(m,n) = gcd(m \text{ mod } n, n)$}.
+
+\subsubsection{Lemma 1.5.7}
+\label{1.5.7}
+Lad $m, n \in \Z$. Så eksisterer der heltal $\lambda, \mu \in \Z$ sådan at:
+\begin{equation*}
+  \lambda m + \mu n = gcd(m,n)
+\end{equation*}
+
+\subsubsection{Indbyrdes primisk}
+\label{Indbyrdes primisk}
+Def. 1.5.8: To heltal $a, b \in \Z$ kaldes indbyrdes primiske hvis
+\begin{equation*}
+  gcd(a,b) = 1
+\end{equation*}
+\textit{Bemærk at hvis vi kan finde $\lambda, \mu$ sådan at $\lambda a + \mu b
+=1$ så er a og b indbyrdes primiske}.
+
+\subsubsection{Kor. 1.5.10}
+Antag $a \mid bc$, hvor $a, b, c \in \Z$ og $gcd(a,b) = 1$.
+
+Så $a \mid c$.
+
+\textit{Hvis a dividerer et produkt og a er indbyrdes primisk med en af
+faktorerne, så dividerer a delproduktet fraregnet denne faktor}.
+
+\subsubsection{Generalisering af Kor. 1.5.11 (supp. noter)}
+Lad $a_1, \ldots , a_n, c \in \Z$.
+\begin{enumerate}[(i)]
+  \item Hvis $gcd(a_i, a_j) = 1$ for alle par $i \neq j$ og hvis $a_i \mid c$
+  for alle $i$,
+  \\ $\Rightarrow$ $a_1, \ldots , a_n \mid c$.
+\end{enumerate}
+\textit{Hvis en mængde faktorer er indbyrdes primiske og alle hver især
+dividerer c, så dividerer deres produkt c}.
+
+\begin{enumerate}[(ii)]
+  \item Hvis $gcd(a_i, c) = 1$ for alle $i$,
+  \\ $\Rightarrow gcd(a_1 \cdots a_n, c) = 1$.
+\end{enumerate}
+\textit{Hvis en mængde heltal alle er indbyrdes primiske med c vil produktet af
+disse heltal være indbyrdes primisk med c}.
+
+
+\subsection{Den kinesiske restklassesætning (1.6)}
+\subsubsection{Def. 1.6.1}
+Definer $\Z / N = \myset{X \in \N \mid 0 \leq X < N}$, for $N \in \N$. Lad $N =
+n_1, \ldots, n_t \neq 0$, hvor $n_1, \ldots, n_t \in \N$. Så lader vi:
+\begin{equation*}
+  r: \Z/N \rightarrow \Z/n_1 \times \cdots \times \Z/n_t
+\end{equation*}
+være afbildningen givet ved $r(X) = ([X]_{n_1}, \ldots, [X]_{n_t})$. Vi kalder
+$r$ for rest-afbildningen.
+
+\textit{$\Z / N$ er mængden af \nameref{Entydig rest}er efter division med N.
+Dette er $r$'s domæne. Givet N og X, giver r(X) os en tupel af rester, nemlig
+X's entydige rest efter division med N's faktorer. Se evt. ex 1.6.2}
+
+\subsubsection{Lemma 1.6.3}
+\label{1.6.3}
+Antag $N = n_1 \cdots n_t \in \N\setminus \{0\}$ og $gcd(n_i, n_j) = 1$ hvis
+$i \neq j$. Så er rest-afbildningen:
+\begin{equation*}
+  r: \Z/N \rightarrow \Z/n_1 \times \cdots \times \Z/n_t
+\end{equation*}
+en \nameref{Bijektiv} afbildning.
+
+\subsubsection{Den kinesiske restklassesætning}
+Sætning 1.6.4: Antag $N = n_1 \cdots n_t \in \N\setminus \{0\}$ og $gcd(n_i,
+n_j) = 1$ for $i \neq j$. (Dvs. \nameref{1.6.3} er opfyldt, så $r$ er en
+\nameref{Bijektiv} afbildning).
+
+Betragt nu kongruenssystemet for $a_1, \ldots, a_t \in \Z$, hvor $a_i =
+[X]_{n_i}$, altså den \nameref{Entydig rest} for X divideret med $n_i$.
+
+Altså $r(X) = a_1, \ldots, a_t$ mht. til $N$.
+\begin{align*}
+  X &\mycong {a_1}{n_1}\\
+  X &\mycong {a_2}{n_2}\\
+  &\vdots\\
+  X &\mycong {a_t}{n_t}
+\end{align*}
+Der gælder nu
+
+\begin{enumerate}[(i)]
+  \item Systemet har en løsning $X \in Z$.
+  \item Hvis $X, Y \in \Z$ er løsninger, så er $X \mycong {Y}{N}$.
+  \item Hvis $X$ er en løsning og $X \mycong {Y}{N}$, så er $Y$ en løsning.
+\end{enumerate}
+\textit{Den kinesiske restklassesætning udregner altså afbildningen $r^{-1}$,
+så hvis vi er givet resterne, samt betingelserne er opfyldt, kan vi finde det
+oprindelige X. Se eks. 1.6.5}.
+
+
+\subsection{Eulers phi-funktion (1.7)}
+Vi definerer først
+\[
+(\Z/ N)^* = \myset{ X \in \Z / N \mid gcd(X, N) = 1}
+\]
+\textit{for $N$ og definerer funktionen $\phi (N) = |(\Z/N)^*|$.}
+
+\textit{Dette er Eulers phi-funktion, den tæller antallet af naturlige tal, der
+\nameref{Indbyrdes primisk}e og skarpt mindre end et givent N. Læg mærke til vi
+tæller antallet af enheder i \nameref{Kvotientring}en $\Z/ N$, hvis $N$ er et
+primtal er alle elementer enheder og $\Z/ N$ bliver derved et \nameref{Legeme}.}
+
+\subsubsection{Prop. 1.7.1}
+Lad $m$ og $n$ være \nameref{Indbyrdes primisk}e naturlige tal. Så gælder:
+\begin{equation*}
+  \phi(mn) = \phi(m)\phi(n)
+\end{equation*}
+
+\subsubsection{Eulers sætning}
+\label{Eulers saetning}
+Sætning 1.7.2: Lad $a, n \in \Z$ være \nameref{Indbyrdes primisk}e, hvor $n \in
+\N$. Så gælder:
+\begin{equation*}
+  a^{\phi(n)} \mycong{1}{n}
+\end{equation*}
+
+
+\subsection{Primtal (1.8)}
+\subsubsection{Primtal}
+\label{Primtal}
+Et primtal er et naturligt tal $p > 1$ der ikke kan skrives som et produkt
+af naturlige tal skarpt mindre end $p$. Dvs.
+\begin{enumerate}[(i)]
+  \item $div(p) = \{1, p\}$
+  \item $\phi(p) = p -1$,
+\end{enumerate}
+\textit{(ii) gælder da $p$ er \nameref{Indbyrdes primisk} med alle tal der ikke
+er et multiplum af $p$, hvilket ingen af de tal skarpt mindre end $p$ er.}
+
+\subsubsection{Lemma 1.8.1}
+Ethvert $n \in \N\setminus \{0\}$ er et produkt af \nameref{Primtal}.
+
+\subsubsection{Euklids sætning}
+Sætning 1.8.2: Der er uendeligt mange \nameref{Primtal}.
+
+\subsubsection{Def. Tvillingeprimtal}
+Et tvillingeprimtal er et \nameref{Primtal} $p$ sådan at $p + 2$ eller $p - 2$
+er et primtal. Et eksempel er 3, da 5 også er et primtal.
+
+\subsubsection{Lemma 1.8.3}
+\label{Lemma 1.8.3}
+Lad p være et \nameref{Primtal} og antag $p \mid ab$, hvor $a,b\in\Z$. Så
+gælder:
+\begin{equation*}
+  p \mid a \myor p \mid b
+\end{equation*}
+
+\textit{Dette gælder ikke kun for et produkt bestående af to faktorer, hvis
+$p \mid a_1 a_2 \cdots a_n \Rightarrow p \mid a_1 \myor p \mid a_2 \myor \ldots
+\myor p \mid a_n$.}
+
+\subsubsection{Entydig primtalsfaktorisering}
+\label{Entydig primtalsfaktorisering}
+Sætning 1.8.5: Ethvert $n \in \N\setminus \{0\}$ har en \textit{entydig}
+primtalsfaktorisering:
+\begin{equation*}
+  n = p_1 p_2 \cdots p_r
+\end{equation*}
+
+\subsubsection{Bemærkning 1.8.6}
+Antag $n > 1 \in \N$ med primtalsfaktorisering:
+\begin{equation*}
+  n = p_{1}^{e_1} \cdots p_{r}^{e_r}
+\end{equation*}
+hvor $e_1, \ldots, e_r \geq 0$.
+
+Pga. \nameref{Entydig primtalsfaktorisering} gælder nu
+\begin{equation*}
+  div(n) = \myset{p_1 ^ {k_1} \cdots p_r ^ {k_r} \mid 0 \leq k_1 \leq e_1,
+  \ldots, 0 \leq k_r \leq e_r}
+\end{equation*}
+
+Antag nu at
+\begin{equation*}
+  m = p_{1}^{f_1} \cdots p_{r}^{f_r}
+\end{equation*}
+hvor $f_1, \ldots, f_r \geq 0$.
+
+Så gælder
+\begin{equation*}
+  div(m) = \myset{ p_1 ^ {k_1}, \cdots, p_r ^ {k_r} \mid 0 \leq k_1 \leq f_1,
+  \ldots, 0 \leq k_r \leq f_r}
+\end{equation*}
+Så er $div(n) \cap div(m)$:
+\begin{align*}
+  &\myset{p_1^{l_1} \cdots p_r^{l_r} \mid 0 \leq l_1 \leq (e_1, f_1),
+  \ldots, 0 \leq k_r \leq (e_r,f_r)}=\\
+  &\myset{p_1^{l_1} \cdots p_r^{l_r} \mid 0 \leq l_1 \leq min(e_1, f_1),
+  \ldots, 0 \leq k_r \leq min(e_r,f_r)}
+\end{align*}
+
+Derfor gælder der nu:
+\begin{equation*}
+  gcd(m,n) = p_1^{min(e_1 , f_1)} \cdots p_r^{min(e_r , f_r)}
+\end{equation*}
+
+På samme vis må det mindste tal der har både $m$ og $n$ som divisorer
+være 
+\begin{equation*}
+  lcm(m,n) = p_1^{max(e_1 , f_1)} \cdots p_r^{max(e_r , f_r)}
+\end{equation*}
+\textit{For gcd gælder der at dette tal skal gå op i både $m$ og $n$, derfor
+bliver vi nødt til at bruge $min(e_1 , f_1)$ for at dette bliver opfyldt. Lcm
+skal være større eller lig både $m$ og $n$, da der skal gælde at både m og n
+går op i lcm, derfor $max(e_1 , f_1)$}.
+
+
+\subsection{RSA (1.9)}
+Det første skridt for RSA er altid at udregne primtalsproduktet:
+\begin{equation*}
+  N = pq
+\end{equation*}
+hvor $p$ og $q$ er \nameref{Primtal} (som regel meget store).
+
+Scenariet er at en person ønsker at sende et tal $X (0 \leq X < N)$, dette
+krypterer han til $[X^e]_N$, se (\nameref{Entydig rest}). Modtageren
+kan nu dekryptere dette tal fordi han kender et hemmeligt tal $d$, således at
+$[[X^e]^d] = X$. \nameref{Restklasse}rne er i forhold til $N$.
+
+Vi skal nu se på hvordan vi konstruerer $e$, $d$. Vi kan konkludere følgende
+fra \nameref{1.3.2} og \nameref{(1.2)}:
+\begin{equation}
+\label{rsa}
+  X^{ed} \mycong{X}{N} \iff [[X^e]^d] = [X^{ed}] = X
+\end{equation}
+Vi ved også at $\phi(N) = \phi(p)\phi(q) = (p-1) (q-1)$.
+
+\subsubsection{Prop. 1.9.1}
+\label{1.9.1}
+Lad $X \in \Z$ og $k \in \N$. Så gælder:
+\begin{equation*}
+  X^{k(p-1)(q-1) + 1} \mycong{X}{N}
+\end{equation*}
+Vi skal som sagt udregne $e, d$ og disse skal have det specielle forhold at
+$[[X^e]^d] = X$. Vi starter med blot at vælge $e \in \N$ frit. Vi kan nu udregne
+$d$ på følgende vis:
+
+Vi husker på fra \nameref{1.5.7} at der findes heltal $\lambda$ og $\mu$ sådan
+at:
+\begin{equation*}
+  \lambda (p - 1)(q - 1) + \mu e = 1
+\end{equation*}
+hvor vi kan antage $0 < \mu < (p - 1)(q - 1)$ og derfor at $\lambda < 0$. Det
+viser sig at $d = \mu$. Dette betyder at der findes $k, d \in \N$, hvor $k =
+-\lambda$ (hvilket gør $k$ positiv) og $d = \mu$ sådan at
+
+\begin{equation*}
+  ed = k(p - 1)(q - 1) + 1
+\end{equation*}
+Fra \nameref{rsa} får vi
+\begin{equation*}
+  [[X^e]^d] = [X^{ed}] = [X^{k(p - 1)(q - 1) + 1}] \mycong{X}{N}
+  \Rightarrow [X^{ed}] = X
+\end{equation*}
+for alle naturlige tal $0 \leq X < N$.
+
+Hvis man finder en hurtig måde at udregne $\phi(N) = \phi(p)\phi(q) = (p-1)
+(q-1)$ så kan man vha. euklids udvidede algortime bryde RSA let vha.
+ovenstående metode (alle kender jo den offentlige nøgle $(e, N)$. Dette er
+dog et lige så svært problem som at faktorisere N. Nu skal vi finde store nok
+primtal $p, q$ så vi får et stort nok N, så det ikke er muligt at finde $p$ og
+$q$ vha. brute-force (primtalsfaktorisering af N).
+
+\subsubsection{Fermats lille sætning}
+\label{Fermats lille saetning}
+Kor. 1.9.2: Lad $p$ være et \nameref{Primtal} og $a \in \Z$ med $gcd(a,p) = 1$.
+Så gælder:
+\begin{equation*}
+  a^{p-1} \mycong{1}{p}
+\end{equation*}
+\textit{Dette kan også direkte udledes af \nameref{Eulers saetning}, da $\phi(p)
+= p -1$. Bemærk dette korollar kun går den ene vej, det gælder altid hvis $p$
+er et primtal, men det kan også gælde i tilfælde hvor p er et sammensat tal.}
+
+\subsubsection{Pseudoprimtal}
+\label{Pseudoprimtal}
+Def. 1.9.3: Lad $N \in \N$ være sammensat og $a \in \Z$. Så er
+\begin{enumerate}[(i)]
+  \item $N$ et pseudoprimtal mht. $a$ hvis $a^{N-1} \mycong{1}{N}$
+  \item $N$ er et Carmichael tal hvis $N$ er et pseudoprimtal $\forall a: 0 < a
+  < N$, hvor $gcd(a,N) = 1$.
+\end{enumerate}
+\textit{Et pseudoprimtal er et naturligt tal der opfylder Fermats lille sætning
+(husk vi ikke ved om det er \nameref{Primtal} eller ej). Et Carmichael tal er et
+tal der er pseudoprimtal for alle baser $a$, der er skarpt mindre og indbyrdes
+primiske med $N$.}
+
+\subsubsection{Lemma 1.9.4}
+\label{1.9.4}
+Lad $p$ være et primtal og $x \in \Z$. Hvis $x^2\mycong{1}{p}$ så gælder:
+\begin{equation*}
+  x \mycong{\pm 1}{p}
+\end{equation*}
+
+\subsubsection{Stærkt pseudoprimtal}
+\label{Staerkt pseudoprimtal}
+Def. 1.9.5: Et ulige sammensat tal $N$ kaldes et \textit{stærkt pseudoprimtal}
+mht. basen $a$ hvis enten
+\begin{enumerate}[(i)]
+  \item $a^q \mycong{1}{N}$
+  \item $\forall i: 0 \leq i < k$ at $a^{2^{i}q}\mycong{-1}{N}$,
+\end{enumerate}
+hvor $N -1 = 2^{k}q$ og $2 \nmid q$.
+
+Bemærk at $q =$ er den \nameref{Entydig primtalsfaktorisering} af $N -1$ hvor
+alle 2'er potenser er smidt væk og $k$ er antallet 2'er potenser i
+faktoriseringen.
+
+\textit{De stærke pseudoprimtal er netop de sammensatte tal der består både
+\nameref{Fermats lille saetning} og \nameref{1.9.4}. Def. af stærke
+pseudoprimtal siger blot at \nameref{1.9.4} skal gælde for alle $ i =
+0,\ldots,k-1$, samt at Fermat testen bliver gjort på $q$ som potensopløfter. Se
+evt. s. 28 for et eksempel.}
+
+\subsubsection{Prop. 1.9.6}
+Lad $p$ være et ulige \nameref{Primtal} og antag at
+\begin{equation*}
+  p - 1 = 2^k q
+\end{equation*}
+hvor $2 \nmid q$.
+
+Hvis $a \in \Z$ og $gcd(a, p) = 1$ så gælder enten
+\begin{enumerate}[(i)]
+  \item $a^q \mycong{1}{N}$
+  \item $\forall i: 0 \leq i < k$ at $a^{2^{i}q}\mycong{-1}{p}$
+\end{enumerate}
+\textit{Der gælder for alle primtal at de opfylder kravet for at være et stærkt
+pseudoprimtal.}
+
+\subsubsection{Sætning 1.9.7 (Rabin)}
+Antag $N > 4$ er et ulige sammensat tal og lad $B$ være antallet af baser $a$
+sådan at N er et \nameref{Staerkt pseudoprimtal} mht. $a$. Så gælder:
+\begin{equation*}
+  B < \phi(N) / 4 \leq (N - 1 / 4)
+\end{equation*}
+
+
+\subsection{Kvadratiske rester (1.11)}
+\subsubsection{Kvadratisk rest}
+\label{Kvadratisk rest}
+Def. 1.11.1: Lad $p$ være et \nameref{Primtal}. Hvis $p \nmid a$ så er $a$ en
+kvadratisk rest modulo $p$ hvis:
+\begin{equation*}
+  \exists x \in \Z: a \mycong{x^2}{p}
+\end{equation*}
+
+Hvis et sådan x ikke eksisterer er $a$ en kvadratisk ikke-rest modulo $p$. Hvis
+$p \mid a$ er der ingen rest. Definitionen skrives med Legendre symbolet:
+\begin{equation*}
+  \myfrac{a}{p} = \left\{
+\begin{array}{l l}
+0 & \quad \text{hvis $p \mid a$}\\
+1 & \quad \text{hvis $\exists x \in \Z: a \mycong{x^2}{p}$}\\
+-1 & \quad \text{hvis et sådan $x$ ikke eksisterer}
+\end{array} \right.
+\end{equation*}
+
+\subsubsection{Bemærkning ang. restklasser}
+\label{1.11.2}
+Der gælder desuden at
+\begin{equation*}
+  \myfrac{a}{p} = \myfrac{a+kp}{p}
+\end{equation*}
+\textit{$a$ og $a+kp$ tilhører samme \nameref{Restklasse} mht. $p$, derfor
+bliver legendre symbolet bevaret.}
+
+\subsubsection{Prop. 1.11.3}
+Lad $p$ være et ulige \nameref{Primtal}. Halvdelen af tallene $1, 2, \ldots, p
+-1$ er en \nameref{Kvadratisk rest}. Den anden halvdel er ikke.
+
+\subsubsection{Sætning 1.11.1}
+\label{Saetning 1.11.1}
+Lad $p$ være et ulige \nameref{Primtal} og $a \in \Z$, hvor $p \nmid a$. Så
+gælder:
+\begin{equation*}
+  \myfrac{a}{p} \mycong {a^{(p-1)/2}}{p}
+\end{equation*}
+\textit{$a$'s \nameref{Kvadratisk rest} mht. $p$ er kongruent til
+$a^{\phi(p)/2}$ mod $p$.}
+
+\subsubsection{Kor. 1.11.5}
+\label{1.11.5}
+Lad $p$ være et ulige \nameref{Primtal}. Så tilfredsstiller legendresymbolet
+\begin{equation*}
+  \myfrac{ab}{p} = \myfrac{a}{p}\myfrac{b}{p}  
+\end{equation*}
+
+\subsubsection{Prop. 1.11.6}
+Lad $p$ være et ulige \nameref{Primtal}. Så gælder:
+\begin{equation*}
+\myfrac{-1}{p} = \left\{
+  \begin{array}{l l}
+  1 & \quad \text{hvis $p \mycong{1}{4}$}\\
+  -1 & \quad \text{hvis $p \mycong{3}{4}$}
+  \end{array} \right.
+\end{equation*}
+
+\subsubsection{Lemma 1.11.10}
+Se bogen s. 39-40 for forklaring, mest notation.
+
+\subsubsection{Kor. 1.11.11}
+\label{1.11.11}
+Lad $p$ være et ulige \nameref{Primtal}. Så gælder:
+\begin{equation*}
+\myfrac{2}{p} = \left\{
+  \begin{array}{l l}
+  1 & \quad \text{hvis $p \mycong{1}{8}$}\\
+  -1 & \quad \text{hvis $p \mycong{3}{8}$}\\
+  -1 & \quad \text{hvis $p \mycong{5}{8}$}\\
+  1 & \quad \text{hvis $p \mycong{7}{8}$}
+  \end{array} \right.  
+\end{equation*}
+
+\subsubsection{Loven for kvadratiske reciprokker}
+\label{1.11.9}
+Der gælder:
+\begin{equation*}
+\myfrac{p}{q}\myfrac{q}{p} = (-1)^{(p-1)(q-1)/4} = \left\{
+  \begin{array}{l l}
+  -\myfrac{q}{p} & \quad \text{hvis $p \equiv q \mycong{3}{4}$}\\
+  \myfrac{q}{p} & \quad \text{ellers}\\
+  \end{array} \right.  
+\end{equation*}
+hvor $p$ og $q$ er ulige \nameref{Primtal}.
+
+\subsubsection{Metode til at udregne $\myfrac{a}{p}$}
+For at undersøge om et tal $a$ har en \nameref{Kvadratisk rest} modulo $p$ skal
+vi nu gøre brug af ovenstående lov.
+
+Det er lettest illustreret via. et eksempel.
+\begin{align*}
+  \myfrac{19}{43} &=\\
+  &19 \equiv 43 \mycong{3}{4} \text{ Derfor flipper og negerer vi pga.
+  \nameref{1.11.9}}\\
+  -\myfrac{43}{19} &=\\
+  &-\myfrac{43}{19} = -\myfrac{5 + 2*19}{19} = -\myfrac{5}{19} \text{ Pga.
+  \nameref{1.11.2}} \\
+  -\myfrac{5}{19} &=\\
+  &\text{Vi flipper, men negerer ikke, pga. \nameref{1.11.9}}\\
+  -\myfrac{19}{5} &=\\
+  &-\myfrac{19}{5} = -\myfrac{4 + 3*5}{5} = -\myfrac{4}{5} \text{ Pga.
+  \nameref{1.11.2}} \\
+  -\myfrac{4}{5} &=\\
+  &-\myfrac{4}{5} = -\myfrac{2}{5} \myfrac{2}{5} \text{ Pga. \nameref{1.11.5}}\\
+  -\myfrac{2}{5} \myfrac{2}{5} &=\\
+  &-\myfrac{2}{5} = 1 \myand \myfrac{2}{5} = -1 \text{ Pga. \nameref{1.11.11}}\\
+  &= -1
+\end{align*}
+Det vil altså sige at der ikke eksisterer et $x$ der opfylder $x^2
+\mycong{19}{43}$ og $19$ er derfor ikke en kvadratisk rest modulo $p$.
