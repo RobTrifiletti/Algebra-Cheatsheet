@@ -1,0 +1,313 @@
+\BOOKMARK [1][-]{toc.1}{Indhold}{}% 1
+\BOOKMARK [1][-]{section*.3}{Talteori \(1\)}{}% 2
+\BOOKMARK [2][-]{section*.4}{M\346ngderne N og Z \(1.1\)}{section*.3}% 3
+\BOOKMARK [2][-]{section*.5}{Division med rest \(1.2\)}{section*.3}% 4
+\BOOKMARK [3][-]{section*.6}{Entydig rest}{section*.5}% 5
+\BOOKMARK [3][-]{section*.7}{Def. 1.2.2}{section*.5}% 6
+\BOOKMARK [3][-]{section*.8}{Restklasse}{section*.5}% 7
+\BOOKMARK [2][-]{section*.9}{Kongruenser \(1.3\)}{section*.3}% 8
+\BOOKMARK [3][-]{section*.10}{Kongruens}{section*.9}% 9
+\BOOKMARK [3][-]{section*.11}{Prop. 1.3.2}{section*.9}% 10
+\BOOKMARK [3][-]{section*.12}{Prop. 1.3.4}{section*.9}% 11
+\BOOKMARK [3][-]{section*.13}{Reference \(1.2\)}{section*.9}% 12
+\BOOKMARK [3][-]{section*.14}{Supp. Noter 1.3}{section*.9}% 13
+\BOOKMARK [3][-]{section*.15}{``Repeated squaring''}{section*.9}% 14
+\BOOKMARK [2][-]{section*.16}{St\370rste f\346lles divisor \(1.4\)}{section*.3}% 15
+\BOOKMARK [3][-]{section*.17}{Lemma 1.4.2}{section*.16}% 16
+\BOOKMARK [3][-]{section*.18}{St\370rste f\346lles divisor}{section*.16}% 17
+\BOOKMARK [2][-]{section*.19}{Euklids algoritme \(1.5\)}{section*.3}% 18
+\BOOKMARK [3][-]{section*.20}{Prop. 1.5.1}{section*.19}% 19
+\BOOKMARK [3][-]{section*.21}{Lemma 1.5.7}{section*.19}% 20
+\BOOKMARK [3][-]{section*.22}{Indbyrdes primisk}{section*.19}% 21
+\BOOKMARK [3][-]{section*.23}{Kor. 1.5.10}{section*.19}% 22
+\BOOKMARK [3][-]{section*.24}{Generalisering af Kor. 1.5.11 \(supp. noter\)}{section*.19}% 23
+\BOOKMARK [2][-]{section*.25}{Den kinesiske restklasses\346tning \(1.6\)}{section*.3}% 24
+\BOOKMARK [3][-]{section*.26}{Def. 1.6.1}{section*.25}% 25
+\BOOKMARK [3][-]{section*.27}{Lemma 1.6.3}{section*.25}% 26
+\BOOKMARK [3][-]{section*.28}{Den kinesiske restklasses\346tning}{section*.25}% 27
+\BOOKMARK [2][-]{section*.29}{Eulers phi-funktion \(1.7\)}{section*.3}% 28
+\BOOKMARK [3][-]{section*.30}{Prop. 1.7.1}{section*.29}% 29
+\BOOKMARK [3][-]{section*.31}{Eulers s\346tning}{section*.29}% 30
+\BOOKMARK [2][-]{section*.32}{Primtal \(1.8\)}{section*.3}% 31
+\BOOKMARK [3][-]{section*.33}{Primtal}{section*.32}% 32
+\BOOKMARK [3][-]{section*.34}{Lemma 1.8.1}{section*.32}% 33
+\BOOKMARK [3][-]{section*.35}{Euklids s\346tning}{section*.32}% 34
+\BOOKMARK [3][-]{section*.36}{Def. Tvillingeprimtal}{section*.32}% 35
+\BOOKMARK [3][-]{section*.37}{Lemma 1.8.3}{section*.32}% 36
+\BOOKMARK [3][-]{section*.38}{Entydig primtalsfaktorisering}{section*.32}% 37
+\BOOKMARK [3][-]{section*.39}{Bem\346rkning 1.8.6}{section*.32}% 38
+\BOOKMARK [2][-]{section*.40}{RSA \(1.9\)}{section*.3}% 39
+\BOOKMARK [3][-]{section*.41}{Prop. 1.9.1}{section*.40}% 40
+\BOOKMARK [3][-]{section*.42}{Fermats lille s\346tning}{section*.40}% 41
+\BOOKMARK [3][-]{section*.43}{Pseudoprimtal}{section*.40}% 42
+\BOOKMARK [3][-]{section*.44}{Lemma 1.9.4}{section*.40}% 43
+\BOOKMARK [3][-]{section*.45}{St\346rkt pseudoprimtal}{section*.40}% 44
+\BOOKMARK [3][-]{section*.46}{Prop. 1.9.6}{section*.40}% 45
+\BOOKMARK [3][-]{section*.47}{S\346tning 1.9.7 \(Rabin\)}{section*.40}% 46
+\BOOKMARK [2][-]{section*.48}{Kvadratiske rester \(1.11\)}{section*.3}% 47
+\BOOKMARK [3][-]{section*.49}{Kvadratisk rest}{section*.48}% 48
+\BOOKMARK [3][-]{section*.50}{Bem\346rkning ang. restklasser}{section*.48}% 49
+\BOOKMARK [3][-]{section*.51}{Prop. 1.11.3}{section*.48}% 50
+\BOOKMARK [3][-]{section*.52}{S\346tning 1.11.1}{section*.48}% 51
+\BOOKMARK [3][-]{section*.53}{Kor. 1.11.5}{section*.48}% 52
+\BOOKMARK [3][-]{section*.54}{Prop. 1.11.6}{section*.48}% 53
+\BOOKMARK [3][-]{section*.55}{Lemma 1.11.10}{section*.48}% 54
+\BOOKMARK [3][-]{section*.56}{Kor. 1.11.11}{section*.48}% 55
+\BOOKMARK [3][-]{section*.57}{Loven for kvadratiske reciprokker}{section*.48}% 56
+\BOOKMARK [3][-]{section*.58}{Metode til at udregne \(ap\)}{section*.48}% 57
+\BOOKMARK [1][-]{section*.59}{Grupper \(2\)}{}% 58
+\BOOKMARK [2][-]{section*.60}{Indledende gruppeteori \(2.1\)}{section*.59}% 59
+\BOOKMARK [3][-]{section*.61}{Komposition}{section*.60}% 60
+\BOOKMARK [3][-]{section*.62}{Gruppe}{section*.60}% 61
+\BOOKMARK [3][-]{section*.63}{Def. 2.1.7}{section*.60}% 62
+\BOOKMARK [3][-]{section*.64}{Finde inversen til et produkt}{section*.60}% 63
+\BOOKMARK [3][-]{section*.65}{Kompositionstabel \(2.1.2\)}{section*.60}% 64
+\BOOKMARK [3][-]{section*.66}{Gruppen S3}{section*.60}% 65
+\BOOKMARK [3][-]{section*.67}{Multiplikation med g G er bijektiv}{section*.60}% 66
+\BOOKMARK [3][-]{section*.68}{Prop. 2.1.2}{section*.60}% 67
+\BOOKMARK [2][-]{section*.69}{Undergrupper \(2.2\)}{section*.59}% 68
+\BOOKMARK [3][-]{section*.70}{Undergruppe}{section*.69}% 69
+\BOOKMARK [3][-]{section*.71}{Prop. 2.2.3}{section*.69}% 70
+\BOOKMARK [3][-]{section*.72}{Sideklasse}{section*.69}% 71
+\BOOKMARK [3][-]{section*.73}{Lemma 2.2.6}{section*.69}% 72
+\BOOKMARK [3][-]{section*.74}{Kor. 2.2.7}{section*.69}% 73
+\BOOKMARK [3][-]{section*.75}{Lagranges s\346tning}{section*.69}% 74
+\BOOKMARK [3][-]{section*.76}{Index}{section*.69}% 75
+\BOOKMARK [2][-]{section*.77}{Normale undergrupper \(2.3\)}{section*.59}% 76
+\BOOKMARK [3][-]{section*.78}{Komposition for delm\346ngder af en gruppe}{section*.77}% 77
+\BOOKMARK [3][-]{section*.79}{Prop. 2.3.1}{section*.77}% 78
+\BOOKMARK [3][-]{section*.80}{Normal undergruppe}{section*.77}% 79
+\BOOKMARK [3][-]{section*.81}{Kor. 2.3.3}{section*.77}% 80
+\BOOKMARK [3][-]{section*.82}{Kvotientgruppe}{section*.77}% 81
+\BOOKMARK [3][-]{section*.83}{Lemma 2.3.6}{section*.77}% 82
+\BOOKMARK [3][-]{section*.84}{Kvotientgruppen Z/nZ}{section*.77}% 83
+\BOOKMARK [3][-]{section*.85}{Primiske restklasser \(Z/nZ\)*}{section*.77}% 84
+\BOOKMARK [3][-]{section*.86}{Supplement til 2.3. Lemma 1}{section*.77}% 85
+\BOOKMARK [3][-]{section*.87}{Supplement til 2.3. Lemma 2}{section*.77}% 86
+\BOOKMARK [2][-]{section*.88}{Gruppehomomorfier \(2.4\)}{section*.59}% 87
+\BOOKMARK [3][-]{section*.89}{Gruppehomomorfi}{section*.88}% 88
+\BOOKMARK [3][-]{section*.90}{Prop. 2.4.9}{section*.88}% 89
+\BOOKMARK [3][-]{section*.91}{Gruppeisomorfi}{section*.88}% 90
+\BOOKMARK [2][-]{section*.92}{Isomorfis\346tningen}{section*.59}% 91
+\BOOKMARK [2][-]{section*.93}{Orden af et element i en gruppe \(2.6\)}{section*.59}% 92
+\BOOKMARK [3][-]{section*.94}{Prop. 2.6.1}{section*.93}% 93
+\BOOKMARK [3][-]{section*.95}{Ordnen af et element}{section*.93}% 94
+\BOOKMARK [3][-]{section*.96}{Prop. 2.6.3}{section*.93}% 95
+\BOOKMARK [3][-]{section*.97}{Supplement til 2.6}{section*.93}% 96
+\BOOKMARK [2][-]{section*.98}{Cykliske grupper \(2.7\)}{section*.59}% 97
+\BOOKMARK [3][-]{section*.99}{Cyklisk gruppe}{section*.98}% 98
+\BOOKMARK [3][-]{section*.100}{Prop 2.7.2}{section*.98}% 99
+\BOOKMARK [3][-]{section*.101}{Prop 2.7.4}{section*.98}% 100
+\BOOKMARK [3][-]{section*.102}{Kor. 2.7.6}{section*.98}% 101
+\BOOKMARK [2][-]{section*.103}{Grupper og tal \(2.8\)}{section*.59}% 102
+\BOOKMARK [3][-]{section*.104}{Produktgrupper}{section*.103}% 103
+\BOOKMARK [3][-]{section*.105}{Lemma 2.8.1}{section*.103}% 104
+\BOOKMARK [2][-]{section*.106}{Symmetriske gruppe \(2.9\)}{section*.59}% 105
+\BOOKMARK [3][-]{section*.107}{Def. 2.9.1}{section*.106}% 106
+\BOOKMARK [3][-]{section*.108}{Prop 2.9.2}{section*.106}% 107
+\BOOKMARK [3][-]{section*.109}{k-cykel}{section*.106}% 108
+\BOOKMARK [3][-]{section*.110}{Ordnen af en cykel}{section*.106}% 109
+\BOOKMARK [3][-]{section*.111}{Prop 2.9.5}{section*.106}% 110
+\BOOKMARK [3][-]{section*.112}{Prop 2.9.6}{section*.106}% 111
+\BOOKMARK [3][-]{section*.113}{Lemma 2.9.8}{section*.106}% 112
+\BOOKMARK [3][-]{section*.114}{Transposition}{section*.106}% 113
+\BOOKMARK [3][-]{section*.115}{Simpel transposition}{section*.106}% 114
+\BOOKMARK [3][-]{section*.116}{Bubble sort}{section*.106}% 115
+\BOOKMARK [3][-]{section*.117}{Inversion}{section*.106}% 116
+\BOOKMARK [3][-]{section*.118}{Prop 2.9.12}{section*.106}% 117
+\BOOKMARK [3][-]{section*.119}{Lemma 2.9.13}{section*.106}% 118
+\BOOKMARK [3][-]{section*.120}{Lemma 2.9.14}{section*.106}% 119
+\BOOKMARK [3][-]{section*.121}{Def. 2.9.15}{section*.106}% 120
+\BOOKMARK [3][-]{section*.122}{Prop 2.9.16}{section*.106}% 121
+\BOOKMARK [3][-]{section*.123}{Den Alternerende gruppe}{section*.106}% 122
+\BOOKMARK [3][-]{section*.124}{Prop 2.9.17}{section*.106}% 123
+\BOOKMARK [3][-]{section*.125}{Simpel gruppe}{section*.106}% 124
+\BOOKMARK [3][-]{section*.126}{Lemma 2.9.18}{section*.106}% 125
+\BOOKMARK [3][-]{section*.127}{S\346tning 2.9.19}{section*.106}% 126
+\BOOKMARK [3][-]{section*.128}{Lemma 2.9.20}{section*.106}% 127
+\BOOKMARK [2][-]{section*.129}{Gruppevirkninger \(2.10\)}{section*.59}% 128
+\BOOKMARK [3][-]{section*.130}{Gruppevirkning}{section*.129}% 129
+\BOOKMARK [3][-]{section*.131}{Def. 2.10.2}{section*.129}% 130
+\BOOKMARK [3][-]{section*.132}{Prop. 2.10.5}{section*.129}% 131
+\BOOKMARK [3][-]{section*.133}{Kor. 2.10.7}{section*.129}% 132
+\BOOKMARK [3][-]{section*.134}{Lemma 2.10.8 \(Burnside\)}{section*.129}% 133
+\BOOKMARK [3][-]{section*.135}{Konjugering}{section*.129}% 134
+\BOOKMARK [3][-]{section*.136}{p-gruppe}{section*.129}% 135
+\BOOKMARK [3][-]{section*.137}{Prop. 2.10.13}{section*.129}% 136
+\BOOKMARK [3][-]{section*.138}{Kor. 2.10.14}{section*.129}% 137
+\BOOKMARK [3][-]{section*.139}{Kor. 2.10.15}{section*.129}% 138
+\BOOKMARK [3][-]{section*.140}{Sylow p-undergruppe}{section*.129}% 139
+\BOOKMARK [3][-]{section*.141}{S\346tning 2.10.17 \(F\370rste Sylow S\346tning\)}{section*.129}% 140
+\BOOKMARK [3][-]{section*.142}{S\346tning 2.10.18 \(Anden Sylow S\346tning\)}{section*.129}% 141
+\BOOKMARK [3][-]{section*.143}{S\346tning 2.10.19 \(Tredje Sylow S\346tning\)}{section*.129}% 142
+\BOOKMARK [3][-]{section*.144}{Supplement til 2.10. Lemma 1}{section*.129}% 143
+\BOOKMARK [3][-]{section*.145}{Supplement til 2.10. Korrolar}{section*.129}% 144
+\BOOKMARK [3][-]{section*.146}{Supplement til 2.10. Observation}{section*.129}% 145
+\BOOKMARK [3][-]{section*.147}{Supplement til 2.10. Lemma 2}{section*.129}% 146
+\BOOKMARK [1][-]{section*.148}{Ringe \(3\)}{}% 147
+\BOOKMARK [2][-]{section*.149}{Def. Ring \(3.1\)}{section*.148}% 148
+\BOOKMARK [3][-]{section*.150}{Ring}{section*.149}% 149
+\BOOKMARK [3][-]{section*.151}{Delring}{section*.149}% 150
+\BOOKMARK [3][-]{section*.152}{Nuldivisor}{section*.149}% 151
+\BOOKMARK [3][-]{section*.153}{Enhed}{section*.149}% 152
+\BOOKMARK [3][-]{section*.154}{Def. 3.1.1}{section*.149}% 153
+\BOOKMARK [3][-]{section*.155}{Legeme}{section*.149}% 154
+\BOOKMARK [3][-]{section*.156}{Integritetsomr\345de}{section*.149}% 155
+\BOOKMARK [3][-]{section*.157}{Del - og udvidelseslegeme}{section*.149}% 156
+\BOOKMARK [3][-]{section*.158}{Prop. 3.1.3}{section*.149}% 157
+\BOOKMARK [3][-]{section*.159}{Prop. 3.1.4}{section*.149}% 158
+\BOOKMARK [3][-]{section*.160}{Talm\346ngerne Z, Q, R og C}{section*.149}% 159
+\BOOKMARK [3][-]{section*.161}{Ideal}{section*.149}% 160
+\BOOKMARK [3][-]{section*.162}{Ideal frembragt af en m\346ngde}{section*.149}% 161
+\BOOKMARK [3][-]{section*.163}{Bem\346rkning 3.1.6}{section*.149}% 162
+\BOOKMARK [3][-]{section*.164}{Bem\346rkning 3.1.7}{section*.149}% 163
+\BOOKMARK [3][-]{section*.165}{Bem\346rkning 3.1.8}{section*.149}% 164
+\BOOKMARK [3][-]{section*.166}{Hovedideal}{section*.149}% 165
+\BOOKMARK [3][-]{section*.167}{Hovedidealomr\345de}{section*.149}% 166
+\BOOKMARK [3][-]{section*.168}{Prop. 3.1.10}{section*.149}% 167
+\BOOKMARK [3][-]{section*.169}{S\346tning 3.1.11}{section*.149}% 168
+\BOOKMARK [2][-]{section*.170}{Kvotientringe \(3.2\)}{section*.148}% 169
+\BOOKMARK [3][-]{section*.171}{Kvotientring}{section*.170}% 170
+\BOOKMARK [3][-]{section*.172}{Kvotientringe i Z}{section*.170}% 171
+\BOOKMARK [3][-]{section*.173}{Prop. 3.2.2}{section*.170}% 172
+\BOOKMARK [3][-]{section*.174}{Prop. 3.2.3}{section*.170}% 173
+\BOOKMARK [3][-]{section*.175}{Fp}{section*.170}% 174
+\BOOKMARK [3][-]{section*.176}{Primideal}{section*.170}% 175
+\BOOKMARK [3][-]{section*.177}{Maksimalt ideal}{section*.170}% 176
+\BOOKMARK [3][-]{section*.178}{Maksimale idealer i Z}{section*.170}% 177
+\BOOKMARK [2][-]{section*.179}{Ringhomomorfier \(3.3\)}{section*.148}% 178
+\BOOKMARK [3][-]{section*.180}{Ringhomomorfi}{section*.179}% 179
+\BOOKMARK [3][-]{section*.181}{Ringisomorfi}{section*.179}% 180
+\BOOKMARK [3][-]{section*.182}{Kerne og billede af Ringhomomorfi}{section*.179}% 181
+\BOOKMARK [3][-]{section*.183}{Prop. 3.3.2}{section*.179}% 182
+\BOOKMARK [3][-]{section*.184}{Entydig ringhomomorfi fra Z}{section*.179}% 183
+\BOOKMARK [3][-]{section*.185}{Bem\346rkning 3.3.4}{section*.179}% 184
+\BOOKMARK [3][-]{section*.186}{Karakteristik af en ring}{section*.179}% 185
+\BOOKMARK [3][-]{section*.187}{Lemma 3.3.5}{section*.179}% 186
+\BOOKMARK [3][-]{section*.188}{Prop 3.3.7}{section*.179}% 187
+\BOOKMARK [3][-]{section*.189}{Lemma 3.3.8}{section*.179}% 188
+\BOOKMARK [3][-]{section*.190}{Freshman's Dream}{section*.179}% 189
+\BOOKMARK [3][-]{section*.191}{Bem\346rkning 3.3.10}{section*.179}% 190
+\BOOKMARK [2][-]{section*.192}{Entydig faktorisering \(3.5\)}{section*.148}% 191
+\BOOKMARK [3][-]{section*.193}{Associerede elementer}{section*.192}% 192
+\BOOKMARK [3][-]{section*.194}{Irreducibelt element}{section*.192}% 193
+\BOOKMARK [3][-]{section*.195}{Entydig faktorisering til irreducible elementer}{section*.192}% 194
+\BOOKMARK [3][-]{section*.196}{Faktoriel ring}{section*.192}% 195
+\BOOKMARK [3][-]{section*.197}{Primelement}{section*.192}% 196
+\BOOKMARK [3][-]{section*.198}{Prop. 3.5.2}{section*.192}% 197
+\BOOKMARK [3][-]{section*.199}{Prop. 3.5.3}{section*.192}% 198
+\BOOKMARK [3][-]{section*.200}{Bem\346rkning 3.5.4}{section*.192}% 199
+\BOOKMARK [3][-]{section*.201}{Lemma 3.5.5}{section*.192}% 200
+\BOOKMARK [3][-]{section*.202}{Prop. 3.5.6}{section*.192}% 201
+\BOOKMARK [3][-]{section*.203}{S\346tning 3.5.7}{section*.192}% 202
+\BOOKMARK [3][-]{section*.204}{Euklidisk ring}{section*.192}% 203
+\BOOKMARK [3][-]{section*.205}{Prop. 3.5.9}{section*.192}% 204
+\BOOKMARK [3][-]{section*.206}{De Gaussiske heltal Z[i]}{section*.192}% 205
+\BOOKMARK [3][-]{section*.207}{Prop. 3.5.11}{section*.192}% 206
+\BOOKMARK [3][-]{section*.208}{Lemma 3.5.12 \(Lagrange\)}{section*.192}% 207
+\BOOKMARK [3][-]{section*.209}{Korollar 3.5.14}{section*.192}% 208
+\BOOKMARK [3][-]{section*.210}{S\346tning 3.5.15 \(Fermat\)}{section*.192}% 209
+\BOOKMARK [3][-]{section*.211}{Lemma 3.5.18}{section*.192}% 210
+\BOOKMARK [3][-]{section*.212}{Ringklasser}{section*.192}% 211
+\BOOKMARK [1][-]{section*.213}{Polynomier \(4\)}{}% 212
+\BOOKMARK [2][-]{section*.214}{Polynomiumsringe \(4.1\)}{section*.213}% 213
+\BOOKMARK [3][-]{section*.215}{Polynomiumsring}{section*.214}% 214
+\BOOKMARK [3][-]{section*.216}{Bem\346rkning 4.1.3}{section*.214}% 215
+\BOOKMARK [2][-]{section*.217}{Division af Polynomier \(4.2\)}{section*.213}% 216
+\BOOKMARK [3][-]{section*.218}{Prop. 4.2.2}{section*.217}% 217
+\BOOKMARK [3][-]{section*.219}{Prop. 4.2.3}{section*.217}% 218
+\BOOKMARK [3][-]{section*.220}{Prop. 4.2.4}{section*.217}% 219
+\BOOKMARK [3][-]{section*.221}{Korollar 4.2.5}{section*.217}% 220
+\BOOKMARK [3][-]{section*.222}{Def. 4.2.7}{section*.217}% 221
+\BOOKMARK [2][-]{section*.223}{Polynomiumsr\370dder \(4.3\)}{section*.213}% 222
+\BOOKMARK [3][-]{section*.224}{Prop. 4.3.1}{section*.223}% 223
+\BOOKMARK [3][-]{section*.225}{Rod}{section*.223}% 224
+\BOOKMARK [3][-]{section*.226}{Korollar 4.3.2}{section*.223}% 225
+\BOOKMARK [3][-]{section*.227}{Multiplicitet af en rod}{section*.223}% 226
+\BOOKMARK [3][-]{section*.228}{Multipel rod}{section*.223}% 227
+\BOOKMARK [3][-]{section*.229}{Lemma 4.3.4}{section*.223}% 228
+\BOOKMARK [3][-]{section*.230}{S\346tning 4.3.5}{section*.223}% 229
+\BOOKMARK [3][-]{section*.231}{Differentiering af polynomier}{section*.223}% 230
+\BOOKMARK [3][-]{section*.232}{Lemma 4.3.7}{section*.223}% 231
+\BOOKMARK [3][-]{section*.233}{Lemma 4.3.8}{section*.223}% 232
+\BOOKMARK [3][-]{section*.234}{Bem\346rkning 4.3.9}{section*.223}% 233
+\BOOKMARK [2][-]{section*.235}{Cyklotomiske polynomier \(4.4\)}{section*.213}% 234
+\BOOKMARK [3][-]{section*.236}{Enhedsrod}{section*.235}% 235
+\BOOKMARK [3][-]{section*.237}{Lemma 4.4.1}{section*.235}% 236
+\BOOKMARK [3][-]{section*.238}{Bem\346rkning}{section*.235}% 237
+\BOOKMARK [3][-]{section*.239}{Cyklotomisk polynomium}{section*.235}% 238
+\BOOKMARK [3][-]{section*.240}{Prop. 4.4.3}{section*.235}% 239
+\BOOKMARK [2][-]{section*.241}{Primitive r\370dder \(4.5\)}{section*.213}% 240
+\BOOKMARK [3][-]{section*.242}{Primitiv enhedsrod}{section*.241}% 241
+\BOOKMARK [3][-]{section*.243}{Lemma 4.5.2}{section*.241}% 242
+\BOOKMARK [3][-]{section*.244}{S\346tning 4.5.3 \(Gauss\)}{section*.241}% 243
+\BOOKMARK [2][-]{section*.245}{Idealer i polynomiumsringe \(4.6\)}{section*.213}% 244
+\BOOKMARK [3][-]{section*.246}{Prop. 4.6.1}{section*.245}% 245
+\BOOKMARK [3][-]{section*.247}{Prop. 4.6.3}{section*.245}% 246
+\BOOKMARK [3][-]{section*.248}{Prop. 4.6.7}{section*.245}% 247
+\BOOKMARK [3][-]{section*.249}{Bem\346rkning 4.6.8}{section*.245}% 248
+\BOOKMARK [2][-]{section*.250}{Endelige legemer \(4.8\)}{section*.213}% 249
+\BOOKMARK [3][-]{section*.251}{Lemma 4.8.1}{section*.250}% 250
+\BOOKMARK [3][-]{section*.252}{S\346tning 4.8.2}{section*.250}% 251
+\BOOKMARK [3][-]{section*.253}{Lemma 4.8.3}{section*.250}% 252
+\BOOKMARK [3][-]{section*.254}{S\346tning 4.8.5}{section*.250}% 253
+\BOOKMARK [1][-]{section*.255}{Gr\366bner baser \(5\)}{}% 254
+\BOOKMARK [2][-]{section*.256}{Polynomier i flere variable \(5.1\)}{section*.255}% 255
+\BOOKMARK [3][-]{section*.257}{Termordning}{section*.256}% 256
+\BOOKMARK [3][-]{section*.258}{Leksikografisk ordning}{section*.256}% 257
+\BOOKMARK [3][-]{section*.259}{Graderet leksikografisk ordning}{section*.256}% 258
+\BOOKMARK [3][-]{section*.260}{Lemma 5.1.5 \(Dickson\)}{section*.256}% 259
+\BOOKMARK [3][-]{section*.261}{Korollar 5.1.7}{section*.256}% 260
+\BOOKMARK [2][-]{section*.262}{Initialterm \(5.2\)}{section*.255}% 261
+\BOOKMARK [3][-]{section*.263}{Initialterm}{section*.262}% 262
+\BOOKMARK [3][-]{section*.264}{Bem\346rkning 5.2.3}{section*.262}% 263
+\BOOKMARK [2][-]{section*.265}{Divisionsalgoritmen \(5.3\)}{section*.255}% 264
+\BOOKMARK [3][-]{section*.266}{Prop. 5.3.1}{section*.265}% 265
+\BOOKMARK [3][-]{section*.267}{Def. 5.3.2}{section*.265}% 266
+\BOOKMARK [2][-]{section*.268}{Gr\366bnerbaser \(5.4\)}{section*.255}% 267
+\BOOKMARK [3][-]{section*.269}{Gr\366bnerbasis}{section*.268}% 268
+\BOOKMARK [3][-]{section*.270}{Prop. 5.4.2}{section*.268}% 269
+\BOOKMARK [3][-]{section*.271}{Korollar 5.4.5}{section*.268}% 270
+\BOOKMARK [3][-]{section*.272}{Prop. 5.4.6}{section*.268}% 271
+\BOOKMARK [3][-]{section*.273}{S\346tning 5.4.7}{section*.268}% 272
+\BOOKMARK [3][-]{section*.274}{Korollar 5.4.8}{section*.268}% 273
+\BOOKMARK [3][-]{section*.275}{S-polynomiet}{section*.268}% 274
+\BOOKMARK [2][-]{section*.276}{Newton Genvisit \(5.5\)}{section*.255}% 275
+\BOOKMARK [3][-]{section*.277}{S\346tning 5.5.1}{section*.276}% 276
+\BOOKMARK [2][-]{section*.278}{Buchbergers S-kriterie \(5.6\)}{section*.255}% 277
+\BOOKMARK [3][-]{section*.279}{Korollar 5.6.9}{section*.278}% 278
+\BOOKMARK [2][-]{section*.280}{Buchbergers algoritme \(5.7\)}{section*.255}% 279
+\BOOKMARK [3][-]{section*.281}{S\346tning 5.7.2}{section*.280}% 280
+\BOOKMARK [2][-]{section*.282}{Den reducerede Gr\366bnerbasis \(5.8\)}{section*.255}% 281
+\BOOKMARK [3][-]{section*.283}{Minimal Gr\366bnerbasis}{section*.282}% 282
+\BOOKMARK [3][-]{section*.284}{Reduceret Gr\366bnerbasis}{section*.282}% 283
+\BOOKMARK [3][-]{section*.285}{S\346tning 5.8.3}{section*.282}% 284
+\BOOKMARK [2][-]{section*.286}{L\370sning af ligningssystemer vha Gr\366bnerbaser \(5.9\)}{section*.255}% 285
+\BOOKMARK [3][-]{section*.287}{S\346tning 5.9.1}{section*.286}% 286
+\BOOKMARK [1][-]{section*.288}{Appendix \(6\)}{}% 287
+\BOOKMARK [2][-]{section*.289}{Talteori \(1\)}{section*.288}% 288
+\BOOKMARK [3][-]{section*.290}{Induktionsprincippet}{section*.289}% 289
+\BOOKMARK [3][-]{section*.291}{Reference \(1.1\)}{section*.289}% 290
+\BOOKMARK [3][-]{section*.292}{Grupper \(2\)}{section*.289}% 291
+\BOOKMARK [3][-]{section*.293}{Veldefineret}{section*.289}% 292
+\BOOKMARK [3][-]{section*.294}{Injektiv}{section*.289}% 293
+\BOOKMARK [3][-]{section*.295}{Surjektiv}{section*.289}% 294
+\BOOKMARK [3][-]{section*.296}{Bijektiv}{section*.289}% 295
+\BOOKMARK [3][-]{section*.297}{Ker\(f\)}{section*.289}% 296
+\BOOKMARK [3][-]{section*.298}{f\(G\)}{section*.289}% 297
+\BOOKMARK [2][-]{section*.300}{Gr\366bnerbaser \(5\)}{section*.288}% 298
+\BOOKMARK [3][-]{section*.301}{Relation}{section*.300}% 299
+\BOOKMARK [3][-]{section*.302}{\306kvivalensrelation}{section*.300}% 300
+\BOOKMARK [3][-]{section*.303}{Partiel ordning}{section*.300}% 301
+\BOOKMARK [3][-]{section*.304}{Minimalt element}{section*.300}% 302
+\BOOKMARK [3][-]{section*.305}{F\370rste element}{section*.300}% 303
+\BOOKMARK [3][-]{section*.306}{Total ordning}{section*.300}% 304
+\BOOKMARK [3][-]{section*.307}{Velordning}{section*.300}% 305
+\BOOKMARK [2][-]{section*.308}{"426830A f1, \203, fm "526930B }{section*.288}% 306
+\BOOKMARK [1][-]{section*.309}{Eksamen \(7\)}{}% 307
+\BOOKMARK [2][-]{section*.310}{Den kinesiske restklasses\346tning}{section*.309}% 308
+\BOOKMARK [2][-]{section*.311}{\(n\)}{section*.309}% 309
+\BOOKMARK [2][-]{section*.312}{Normafbildning}{section*.309}% 310
+\BOOKMARK [3][-]{section*.313}{Vis at R ikke er et Hovedidealomr\345de}{section*.312}% 311
+\BOOKMARK [3][-]{section*.314}{Antallet af frembringere i L*}{section*.312}% 312
+\BOOKMARK [3][-]{section*.315}{Simple transpositioner}{section*.312}% 313

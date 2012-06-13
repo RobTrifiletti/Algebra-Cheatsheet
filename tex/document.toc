@@ -1,0 +1,313 @@
+\select@language {danish}
+\contentsline {section}{Talteori (1)}{10}{section*.3}
+\contentsline {subsection}{M\IeC {\ae }ngderne $\mathbb {N}$ og $\mathbb {Z}$ (1.1)}{10}{section*.4}
+\contentsline {subsection}{Division med rest (1.2)}{10}{section*.5}
+\contentsline {subsubsection}{Entydig rest}{10}{section*.6}
+\contentsline {subsubsection}{Def. 1.2.2}{10}{section*.7}
+\contentsline {subsubsection}{Restklasse}{10}{section*.8}
+\contentsline {subsection}{Kongruenser (1.3)}{10}{section*.9}
+\contentsline {subsubsection}{Kongruens}{10}{section*.10}
+\contentsline {subsubsection}{Prop. 1.3.2}{10}{section*.11}
+\contentsline {subsubsection}{Prop. 1.3.4}{11}{section*.12}
+\contentsline {subsubsection}{Reference (1.2)}{11}{section*.13}
+\contentsline {subsubsection}{Supp. Noter 1.3}{11}{section*.14}
+\contentsline {subsubsection}{``Repeated squaring''}{11}{section*.15}
+\contentsline {subsection}{St\IeC {\o }rste f\IeC {\ae }lles divisor (1.4)}{11}{section*.16}
+\contentsline {subsubsection}{Lemma 1.4.2}{11}{section*.17}
+\contentsline {subsubsection}{St\IeC {\o }rste f\IeC {\ae }lles divisor}{11}{section*.18}
+\contentsline {subsection}{Euklids algoritme (1.5)}{11}{section*.19}
+\contentsline {subsubsection}{Prop. 1.5.1}{11}{section*.20}
+\contentsline {subsubsection}{Lemma 1.5.7}{12}{section*.21}
+\contentsline {subsubsection}{Indbyrdes primisk}{12}{section*.22}
+\contentsline {subsubsection}{Kor. 1.5.10}{12}{section*.23}
+\contentsline {subsubsection}{Generalisering af Kor. 1.5.11 (supp. noter)}{12}{section*.24}
+\contentsline {subsection}{Den kinesiske restklasses\IeC {\ae }tning (1.6)}{12}{section*.25}
+\contentsline {subsubsection}{Def. 1.6.1}{12}{section*.26}
+\contentsline {subsubsection}{Lemma 1.6.3}{13}{section*.27}
+\contentsline {subsubsection}{Den kinesiske restklasses\IeC {\ae }tning}{13}{section*.28}
+\contentsline {subsection}{Eulers phi-funktion (1.7)}{13}{section*.29}
+\contentsline {subsubsection}{Prop. 1.7.1}{13}{section*.30}
+\contentsline {subsubsection}{Eulers s\IeC {\ae }tning}{13}{section*.31}
+\contentsline {subsection}{Primtal (1.8)}{14}{section*.32}
+\contentsline {subsubsection}{Primtal}{14}{section*.33}
+\contentsline {subsubsection}{Lemma 1.8.1}{14}{section*.34}
+\contentsline {subsubsection}{Euklids s\IeC {\ae }tning}{14}{section*.35}
+\contentsline {subsubsection}{Def. Tvillingeprimtal}{14}{section*.36}
+\contentsline {subsubsection}{Lemma 1.8.3}{14}{section*.37}
+\contentsline {subsubsection}{Entydig primtalsfaktorisering}{14}{section*.38}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 1.8.6}{14}{section*.39}
+\contentsline {subsection}{RSA (1.9)}{15}{section*.40}
+\contentsline {subsubsection}{Prop. 1.9.1}{15}{section*.41}
+\contentsline {subsubsection}{Fermats lille s\IeC {\ae }tning}{16}{section*.42}
+\contentsline {subsubsection}{Pseudoprimtal}{16}{section*.43}
+\contentsline {subsubsection}{Lemma 1.9.4}{16}{section*.44}
+\contentsline {subsubsection}{St\IeC {\ae }rkt pseudoprimtal}{16}{section*.45}
+\contentsline {subsubsection}{Prop. 1.9.6}{17}{section*.46}
+\contentsline {subsubsection}{S\IeC {\ae }tning 1.9.7 (Rabin)}{17}{section*.47}
+\contentsline {subsection}{Kvadratiske rester (1.11)}{17}{section*.48}
+\contentsline {subsubsection}{Kvadratisk rest}{17}{section*.49}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning ang. restklasser}{17}{section*.50}
+\contentsline {subsubsection}{Prop. 1.11.3}{17}{section*.51}
+\contentsline {subsubsection}{S\IeC {\ae }tning 1.11.1}{17}{section*.52}
+\contentsline {subsubsection}{Kor. 1.11.5}{18}{section*.53}
+\contentsline {subsubsection}{Prop. 1.11.6}{18}{section*.54}
+\contentsline {subsubsection}{Lemma 1.11.10}{18}{section*.55}
+\contentsline {subsubsection}{Kor. 1.11.11}{18}{section*.56}
+\contentsline {subsubsection}{Loven for kvadratiske reciprokker}{18}{section*.57}
+\contentsline {subsubsection}{Metode til at udregne $\left (\frac {a}{p}\right )$}{18}{section*.58}
+\contentsline {section}{Grupper (2)}{20}{section*.59}
+\contentsline {subsection}{Indledende gruppeteori (2.1)}{20}{section*.60}
+\contentsline {subsubsection}{Komposition}{20}{section*.61}
+\contentsline {subsubsection}{Gruppe}{20}{section*.62}
+\contentsline {subsubsection}{Def. 2.1.7}{20}{section*.63}
+\contentsline {subsubsection}{Finde inversen til et produkt}{20}{section*.64}
+\contentsline {subsubsection}{Kompositionstabel (2.1.2)}{20}{section*.65}
+\contentsline {subsubsection}{Gruppen $S_3$}{20}{section*.66}
+\contentsline {subsubsection}{Multiplikation med $g \in G$ er bijektiv}{21}{section*.67}
+\contentsline {subsubsection}{Prop. 2.1.2}{21}{section*.68}
+\contentsline {subsection}{Undergrupper (2.2)}{21}{section*.69}
+\contentsline {subsubsection}{Undergruppe}{21}{section*.70}
+\contentsline {subsubsection}{Prop. 2.2.3}{22}{section*.71}
+\contentsline {subsubsection}{Sideklasse}{22}{section*.72}
+\contentsline {subsubsection}{Lemma 2.2.6}{22}{section*.73}
+\contentsline {subsubsection}{Kor. 2.2.7}{22}{section*.74}
+\contentsline {subsubsection}{Lagranges s\IeC {\ae }tning}{23}{section*.75}
+\contentsline {subsubsection}{Index}{23}{section*.76}
+\contentsline {subsection}{Normale undergrupper (2.3)}{23}{section*.77}
+\contentsline {subsubsection}{Komposition for delm\IeC {\ae }ngder af en gruppe}{23}{section*.78}
+\contentsline {subsubsection}{Prop. 2.3.1}{23}{section*.79}
+\contentsline {subsubsection}{Normal undergruppe}{23}{section*.80}
+\contentsline {subsubsection}{Kor. 2.3.3}{23}{section*.81}
+\contentsline {subsubsection}{Kvotientgruppe}{24}{section*.82}
+\contentsline {subsubsection}{Lemma 2.3.6}{24}{section*.83}
+\contentsline {subsubsection}{Kvotientgruppen $\mathbb {Z}/n\mathbb {Z}$}{24}{section*.84}
+\contentsline {subsubsection}{Primiske restklasser $(\mathbb {Z}/n\mathbb {Z})^*$}{24}{section*.85}
+\contentsline {subsubsection}{Supplement til 2.3. Lemma 1}{24}{section*.86}
+\contentsline {subsubsection}{Supplement til 2.3. Lemma 2}{25}{section*.87}
+\contentsline {subsection}{Gruppehomomorfier (2.4)}{25}{section*.88}
+\contentsline {subsubsection}{Gruppehomomorfi}{25}{section*.89}
+\contentsline {subsubsection}{Prop. 2.4.9}{25}{section*.90}
+\contentsline {subsubsection}{Gruppeisomorfi}{25}{section*.91}
+\contentsline {subsection}{Isomorfis\IeC {\ae }tningen}{25}{section*.92}
+\contentsline {subsection}{Orden af et element i en gruppe (2.6)}{26}{section*.93}
+\contentsline {subsubsection}{Prop. 2.6.1}{26}{section*.94}
+\contentsline {subsubsection}{Ordnen af et element}{26}{section*.95}
+\contentsline {subsubsection}{Prop. 2.6.3}{26}{section*.96}
+\contentsline {subsubsection}{Supplement til 2.6}{26}{section*.97}
+\contentsline {subsection}{Cykliske grupper (2.7)}{27}{section*.98}
+\contentsline {subsubsection}{Cyklisk gruppe}{27}{section*.99}
+\contentsline {subsubsection}{Prop 2.7.2}{27}{section*.100}
+\contentsline {subsubsection}{Prop 2.7.4}{27}{section*.101}
+\contentsline {subsubsection}{Kor. 2.7.6}{27}{section*.102}
+\contentsline {subsection}{Grupper og tal (2.8)}{27}{section*.103}
+\contentsline {subsubsection}{Produktgrupper}{27}{section*.104}
+\contentsline {subsubsection}{Lemma 2.8.1}{28}{section*.105}
+\contentsline {subsection}{Symmetriske gruppe (2.9)}{28}{section*.106}
+\contentsline {subsubsection}{Def. 2.9.1}{28}{section*.107}
+\contentsline {subsubsection}{Prop 2.9.2}{28}{section*.108}
+\contentsline {subsubsection}{$k$-cykel}{28}{section*.109}
+\contentsline {subsubsection}{Ordnen af en cykel}{29}{section*.110}
+\contentsline {subsubsection}{Prop 2.9.5}{29}{section*.111}
+\contentsline {subsubsection}{Prop 2.9.6}{29}{section*.112}
+\contentsline {subsubsection}{Lemma 2.9.8}{29}{section*.113}
+\contentsline {subsubsection}{Transposition}{29}{section*.114}
+\contentsline {subsubsection}{Simpel transposition}{29}{section*.115}
+\contentsline {subsubsection}{Bubble sort}{29}{section*.116}
+\contentsline {subsubsection}{Inversion}{30}{section*.117}
+\contentsline {subsubsection}{Prop 2.9.12}{30}{section*.118}
+\contentsline {subsubsection}{Lemma 2.9.13}{30}{section*.119}
+\contentsline {subsubsection}{Lemma 2.9.14}{30}{section*.120}
+\contentsline {subsubsection}{Def. 2.9.15}{30}{section*.121}
+\contentsline {subsubsection}{Prop 2.9.16}{30}{section*.122}
+\contentsline {subsubsection}{Den Alternerende gruppe}{31}{section*.123}
+\contentsline {subsubsection}{Prop 2.9.17}{31}{section*.124}
+\contentsline {subsubsection}{Simpel gruppe}{31}{section*.125}
+\contentsline {subsubsection}{Lemma 2.9.18}{31}{section*.126}
+\contentsline {subsubsection}{S\IeC {\ae }tning 2.9.19}{31}{section*.127}
+\contentsline {subsubsection}{Lemma 2.9.20}{31}{section*.128}
+\contentsline {subsection}{Gruppevirkninger (2.10)}{31}{section*.129}
+\contentsline {subsubsection}{Gruppevirkning}{31}{section*.130}
+\contentsline {subsubsection}{Def. 2.10.2}{32}{section*.131}
+\contentsline {subsubsection}{Prop. 2.10.5}{32}{section*.132}
+\contentsline {subsubsection}{Kor. 2.10.7}{32}{section*.133}
+\contentsline {subsubsection}{Lemma 2.10.8 (Burnside)}{32}{section*.134}
+\contentsline {subsubsection}{Konjugering}{33}{section*.135}
+\contentsline {subsubsection}{$p$-gruppe}{33}{section*.136}
+\contentsline {subsubsection}{Prop. 2.10.13}{33}{section*.137}
+\contentsline {subsubsection}{Kor. 2.10.14}{34}{section*.138}
+\contentsline {subsubsection}{Kor. 2.10.15}{34}{section*.139}
+\contentsline {subsubsection}{Sylow $p$-undergruppe}{34}{section*.140}
+\contentsline {subsubsection}{S\IeC {\ae }tning 2.10.17 (F\IeC {\o }rste Sylow S\IeC {\ae }tning)}{34}{section*.141}
+\contentsline {subsubsection}{S\IeC {\ae }tning 2.10.18 (Anden Sylow S\IeC {\ae }tning)}{34}{section*.142}
+\contentsline {subsubsection}{S\IeC {\ae }tning 2.10.19 (Tredje Sylow S\IeC {\ae }tning)}{34}{section*.143}
+\contentsline {subsubsection}{Supplement til 2.10. Lemma 1}{34}{section*.144}
+\contentsline {subsubsection}{Supplement til 2.10. Korrolar}{35}{section*.145}
+\contentsline {subsubsection}{Supplement til 2.10. Observation}{35}{section*.146}
+\contentsline {subsubsection}{Supplement til 2.10. Lemma 2}{35}{section*.147}
+\contentsline {section}{Ringe (3)}{36}{section*.148}
+\contentsline {subsection}{Def. Ring (3.1)}{36}{section*.149}
+\contentsline {subsubsection}{Ring}{36}{section*.150}
+\contentsline {subsubsection}{Delring}{36}{section*.151}
+\contentsline {subsubsection}{Nuldivisor}{36}{section*.152}
+\contentsline {subsubsection}{Enhed}{36}{section*.153}
+\contentsline {subsubsection}{Def. 3.1.1}{37}{section*.154}
+\contentsline {subsubsection}{Legeme}{37}{section*.155}
+\contentsline {subsubsection}{Integritetsomr\IeC {\r a}de}{37}{section*.156}
+\contentsline {subsubsection}{Del - og udvidelseslegeme}{37}{section*.157}
+\contentsline {subsubsection}{Prop. 3.1.3}{37}{section*.158}
+\contentsline {subsubsection}{Prop. 3.1.4}{37}{section*.159}
+\contentsline {subsubsection}{Talm\IeC {\ae }ngerne $\mathbb {Z}$, $\mathbb {Q}$, $\mathbb {R}$ og $\mathbb {C}$}{37}{section*.160}
+\contentsline {subsubsection}{Ideal}{37}{section*.161}
+\contentsline {subsubsection}{Ideal frembragt af en m\IeC {\ae }ngde}{38}{section*.162}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 3.1.6}{38}{section*.163}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 3.1.7}{38}{section*.164}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 3.1.8}{38}{section*.165}
+\contentsline {subsubsection}{Hovedideal}{38}{section*.166}
+\contentsline {subsubsection}{Hovedidealomr\IeC {\r a}de}{38}{section*.167}
+\contentsline {subsubsection}{Prop. 3.1.10}{39}{section*.168}
+\contentsline {subsubsection}{S\IeC {\ae }tning 3.1.11}{39}{section*.169}
+\contentsline {subsection}{Kvotientringe (3.2)}{39}{section*.170}
+\contentsline {subsubsection}{Kvotientring}{39}{section*.171}
+\contentsline {subsubsection}{Kvotientringe i $\mathbb {Z}$}{39}{section*.172}
+\contentsline {subsubsection}{Prop. 3.2.2}{39}{section*.173}
+\contentsline {subsubsection}{Prop. 3.2.3}{39}{section*.174}
+\contentsline {subsubsection}{$\mathbb {F}_p$}{39}{section*.175}
+\contentsline {subsubsection}{Primideal}{40}{section*.176}
+\contentsline {subsubsection}{Maksimalt ideal}{40}{section*.177}
+\contentsline {subsubsection}{Maksimale idealer i $\mathbb {Z}$}{40}{section*.178}
+\contentsline {subsection}{Ringhomomorfier (3.3)}{40}{section*.179}
+\contentsline {subsubsection}{Ringhomomorfi}{40}{section*.180}
+\contentsline {subsubsection}{Ringisomorfi}{40}{section*.181}
+\contentsline {subsubsection}{Kerne og billede af Ringhomomorfi}{40}{section*.182}
+\contentsline {subsubsection}{Prop. 3.3.2}{41}{section*.183}
+\contentsline {subsubsection}{Entydig ringhomomorfi fra $\mathbb {Z}$}{41}{section*.184}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 3.3.4}{41}{section*.185}
+\contentsline {subsubsection}{Karakteristik af en ring}{41}{section*.186}
+\contentsline {subsubsection}{Lemma 3.3.5}{41}{section*.187}
+\contentsline {subsubsection}{Prop 3.3.7}{41}{section*.188}
+\contentsline {subsubsection}{Lemma 3.3.8}{42}{section*.189}
+\contentsline {subsubsection}{Freshman's Dream}{42}{section*.190}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 3.3.10}{42}{section*.191}
+\contentsline {subsection}{Entydig faktorisering (3.5)}{42}{section*.192}
+\contentsline {subsubsection}{Associerede elementer}{42}{section*.193}
+\contentsline {subsubsection}{Irreducibelt element}{42}{section*.194}
+\contentsline {subsubsection}{Entydig faktorisering til irreducible elementer}{43}{section*.195}
+\contentsline {subsubsection}{Faktoriel ring}{43}{section*.196}
+\contentsline {subsubsection}{Primelement}{43}{section*.197}
+\contentsline {subsubsection}{Prop. 3.5.2}{43}{section*.198}
+\contentsline {subsubsection}{Prop. 3.5.3}{43}{section*.199}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 3.5.4}{43}{section*.200}
+\contentsline {subsubsection}{Lemma 3.5.5}{43}{section*.201}
+\contentsline {subsubsection}{Prop. 3.5.6}{43}{section*.202}
+\contentsline {subsubsection}{S\IeC {\ae }tning 3.5.7}{43}{section*.203}
+\contentsline {subsubsection}{Euklidisk ring}{44}{section*.204}
+\contentsline {subsubsection}{Prop. 3.5.9}{44}{section*.205}
+\contentsline {subsubsection}{De Gaussiske heltal $Z[i]$}{44}{section*.206}
+\contentsline {subsubsection}{Prop. 3.5.11}{44}{section*.207}
+\contentsline {subsubsection}{Lemma 3.5.12 (Lagrange)}{44}{section*.208}
+\contentsline {subsubsection}{Korollar 3.5.14}{44}{section*.209}
+\contentsline {subsubsection}{S\IeC {\ae }tning 3.5.15 (Fermat)}{44}{section*.210}
+\contentsline {subsubsection}{Lemma 3.5.18}{44}{section*.211}
+\contentsline {subsubsection}{Ringklasser}{45}{section*.212}
+\contentsline {section}{Polynomier (4)}{46}{section*.213}
+\contentsline {subsection}{Polynomiumsringe (4.1)}{46}{section*.214}
+\contentsline {subsubsection}{Polynomiumsring}{46}{section*.215}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 4.1.3}{47}{section*.216}
+\contentsline {subsection}{Division af Polynomier (4.2)}{47}{section*.217}
+\contentsline {subsubsection}{Prop. 4.2.2}{47}{section*.218}
+\contentsline {subsubsection}{Prop. 4.2.3}{47}{section*.219}
+\contentsline {subsubsection}{Prop. 4.2.4}{47}{section*.220}
+\contentsline {subsubsection}{Korollar 4.2.5}{47}{section*.221}
+\contentsline {subsubsection}{Def. 4.2.7}{47}{section*.222}
+\contentsline {subsection}{Polynomiumsr\IeC {\o }dder (4.3)}{48}{section*.223}
+\contentsline {subsubsection}{Prop. 4.3.1}{48}{section*.224}
+\contentsline {subsubsection}{Rod}{48}{section*.225}
+\contentsline {subsubsection}{Korollar 4.3.2}{48}{section*.226}
+\contentsline {subsubsection}{Multiplicitet af en rod}{48}{section*.227}
+\contentsline {subsubsection}{Multipel rod}{48}{section*.228}
+\contentsline {subsubsection}{Lemma 4.3.4}{48}{section*.229}
+\contentsline {subsubsection}{S\IeC {\ae }tning 4.3.5}{49}{section*.230}
+\contentsline {subsubsection}{Differentiering af polynomier}{49}{section*.231}
+\contentsline {subsubsection}{Lemma 4.3.7}{49}{section*.232}
+\contentsline {subsubsection}{Lemma 4.3.8}{49}{section*.233}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 4.3.9}{49}{section*.234}
+\contentsline {subsection}{Cyklotomiske polynomier (4.4)}{50}{section*.235}
+\contentsline {subsubsection}{Enhedsrod}{50}{section*.236}
+\contentsline {subsubsection}{Lemma 4.4.1}{50}{section*.237}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning}{50}{section*.238}
+\contentsline {subsubsection}{Cyklotomisk polynomium}{50}{section*.239}
+\contentsline {subsubsection}{Prop. 4.4.3}{50}{section*.240}
+\contentsline {subsection}{Primitive r\IeC {\o }dder (4.5)}{51}{section*.241}
+\contentsline {subsubsection}{Primitiv enhedsrod}{51}{section*.242}
+\contentsline {subsubsection}{Lemma 4.5.2}{51}{section*.243}
+\contentsline {subsubsection}{S\IeC {\ae }tning 4.5.3 (Gauss)}{51}{section*.244}
+\contentsline {subsection}{Idealer i polynomiumsringe (4.6)}{51}{section*.245}
+\contentsline {subsubsection}{Prop. 4.6.1}{51}{section*.246}
+\contentsline {subsubsection}{Prop. 4.6.3}{51}{section*.247}
+\contentsline {subsubsection}{Prop. 4.6.7}{52}{section*.248}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 4.6.8}{52}{section*.249}
+\contentsline {subsection}{Endelige legemer (4.8)}{52}{section*.250}
+\contentsline {subsubsection}{Lemma 4.8.1}{52}{section*.251}
+\contentsline {subsubsection}{S\IeC {\ae }tning 4.8.2}{52}{section*.252}
+\contentsline {subsubsection}{Lemma 4.8.3}{52}{section*.253}
+\contentsline {subsubsection}{S\IeC {\ae }tning 4.8.5}{53}{section*.254}
+\contentsline {section}{Gr\IeC {\"o}bner baser (5)}{54}{section*.255}
+\contentsline {subsection}{Polynomier i flere variable (5.1)}{54}{section*.256}
+\contentsline {subsubsection}{Termordning}{55}{section*.257}
+\contentsline {subsubsection}{Leksikografisk ordning}{55}{section*.258}
+\contentsline {subsubsection}{Graderet leksikografisk ordning}{55}{section*.259}
+\contentsline {subsubsection}{Lemma 5.1.5 (Dickson)}{55}{section*.260}
+\contentsline {subsubsection}{Korollar 5.1.7}{55}{section*.261}
+\contentsline {subsection}{Initialterm (5.2)}{56}{section*.262}
+\contentsline {subsubsection}{Initialterm}{56}{section*.263}
+\contentsline {subsubsection}{Bem\IeC {\ae }rkning 5.2.3}{56}{section*.264}
+\contentsline {subsection}{Divisionsalgoritmen (5.3)}{56}{section*.265}
+\contentsline {subsubsection}{Prop. 5.3.1}{56}{section*.266}
+\contentsline {subsubsection}{Def. 5.3.2}{56}{section*.267}
+\contentsline {subsection}{Gr\IeC {\"o}bnerbaser (5.4)}{57}{section*.268}
+\contentsline {subsubsection}{Gr\IeC {\"o}bnerbasis}{57}{section*.269}
+\contentsline {subsubsection}{Prop. 5.4.2}{57}{section*.270}
+\contentsline {subsubsection}{Korollar 5.4.5}{57}{section*.271}
+\contentsline {subsubsection}{Prop. 5.4.6}{57}{section*.272}
+\contentsline {subsubsection}{S\IeC {\ae }tning 5.4.7}{57}{section*.273}
+\contentsline {subsubsection}{Korollar 5.4.8}{58}{section*.274}
+\contentsline {subsubsection}{S-polynomiet}{58}{section*.275}
+\contentsline {subsection}{Newton Genvisit (5.5)}{58}{section*.276}
+\contentsline {subsubsection}{S\IeC {\ae }tning 5.5.1}{58}{section*.277}
+\contentsline {subsection}{Buchbergers S-kriterie (5.6)}{58}{section*.278}
+\contentsline {subsubsection}{Korollar 5.6.9}{58}{section*.279}
+\contentsline {subsection}{Buchbergers algoritme (5.7)}{58}{section*.280}
+\contentsline {subsubsection}{S\IeC {\ae }tning 5.7.2}{58}{section*.281}
+\contentsline {subsection}{Den reducerede Gr\IeC {\"o}bnerbasis (5.8)}{59}{section*.282}
+\contentsline {subsubsection}{Minimal Gr\IeC {\"o}bnerbasis}{59}{section*.283}
+\contentsline {subsubsection}{Reduceret Gr\IeC {\"o}bnerbasis}{59}{section*.284}
+\contentsline {subsubsection}{S\IeC {\ae }tning 5.8.3}{59}{section*.285}
+\contentsline {subsection}{L\IeC {\o }sning af ligningssystemer vha Gr\IeC {\"o}bnerbaser (5.9)}{59}{section*.286}
+\contentsline {subsubsection}{S\IeC {\ae }tning 5.9.1}{59}{section*.287}
+\contentsline {section}{Appendix (6)}{60}{section*.288}
+\contentsline {subsection}{Talteori (1)}{60}{section*.289}
+\contentsline {subsubsection}{Induktionsprincippet}{60}{section*.290}
+\contentsline {subsubsection}{Reference (1.1)}{60}{section*.291}
+\contentsline {subsubsection}{Grupper (2)}{60}{section*.292}
+\contentsline {subsubsection}{Veldefineret}{60}{section*.293}
+\contentsline {subsubsection}{Injektiv}{60}{section*.294}
+\contentsline {subsubsection}{Surjektiv}{60}{section*.295}
+\contentsline {subsubsection}{Bijektiv}{60}{section*.296}
+\contentsline {subsubsection}{\textit {Ker(f)}}{61}{section*.297}
+\contentsline {subsubsection}{\textit {f(G)}}{61}{section*.298}
+\contentsline {subsection}{Gr\IeC {\"o}bnerbaser (5)}{61}{section*.300}
+\contentsline {subsubsection}{Relation}{61}{section*.301}
+\contentsline {subsubsection}{\IeC {\AE }kvivalensrelation}{61}{section*.302}
+\contentsline {subsubsection}{Partiel ordning}{62}{section*.303}
+\contentsline {subsubsection}{Minimalt element}{62}{section*.304}
+\contentsline {subsubsection}{F\IeC {\o }rste element}{62}{section*.305}
+\contentsline {subsubsection}{Total ordning}{62}{section*.306}
+\contentsline {subsubsection}{Velordning}{62}{section*.307}
+\contentsline {subsection}{$\delimiter "426830A f_1, \ldots , f_m \delimiter "526930B $}{62}{section*.308}
+\contentsline {section}{Eksamen (7)}{63}{section*.309}
+\contentsline {subsection}{Den kinesiske restklasses\IeC {\ae }tning}{63}{section*.310}
+\contentsline {subsection}{$\varphi (n)$}{63}{section*.311}
+\contentsline {subsection}{Normafbildning}{63}{section*.312}
+\contentsline {subsubsection}{Vis at R ikke er et Hovedidealomr\IeC {\r a}de}{64}{section*.313}
+\contentsline {subsubsection}{Antallet af frembringere i $L^*$}{64}{section*.314}
+\contentsline {subsubsection}{Simple transpositioner}{64}{section*.315}
