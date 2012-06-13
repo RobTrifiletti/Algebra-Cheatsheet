@@ -1,0 +1,72 @@
+\section{Eksamen (7)}
+\subsection{Den kinesiske restklassesætning}
+\label{Den kinesiske restklassesaetning}
+Vi har et system.
+\begin{align*}
+  X &\mycong {a_1}{n_1}\\
+  X &\mycong {a_2}{n_2}\\
+  &\vdots\\
+  X &\mycong {a_t}{n_t}
+\end{align*}
+
+Når vi har fundet vores $\lambda$'ere og $\mu$'ere er det blot at indsætte i
+formlen
+\begin{equation*}
+  X = a_1 \mu_1 (N/n_1) + \cdots + a_t \mu_t (N/n_t)
+\end{equation*}
+
+\subsection{$\varphi(n)$}
+Der gælder følgende om $\varphi(p^l)$, hvor $p$ er et primtal og $l \geq 1$.
+\begin{align*}
+  \varphi(p^k) = p^k -p^{k-1} =p^{k-1}(p-1) = p^k \left( 1 -
+\frac{1}{p} \right)
+\end{align*}
+\textit{Proof: Since p is a primer number the only possible values of gcd(pk,m)
+are 1, p, p2,\ldots, pk, and the only way for gcd(pk,m) to not equal 1 is for m
+to be a multiple of p. The multiples of p that are less than or equal to pk are
+p, 2p, 3p, \ldots, pk - 1p = pk, and there are pk - 1 of them. Therefore the
+other $pk - pk - 1$ numbers are all relatively primt to pk.}
+
+Yderemere gælder:
+\begin{align*}
+\varphi(n)
+&= \varphi(p_1^{k_1}) \varphi(p_2^{k_2}) \cdots\varphi(p_r^{k_r})\\
+&=  p_1^{k_1} \left(1- \frac{1}{p_1} \right) p_2^{k_2} \left(1- \frac{1}{p_2} \right) \cdots p_r^{k_r} \left(1- \frac{1}{p_r} \right)\\
+&= p_1^{k_1} p_2^{k_2} \cdots p_r^{k_r} \left(1- \frac{1}{p_1} \right) \left(1- \frac{1}{p_2} \right) \cdots \left(1- \frac{1}{p_r} \right)\\
+&=n \left(1- \frac{1}{p_1} \right)\left(1- \frac{1}{p_2} \right) \cdots\left(1- \frac{1}{p_r} \right).
+\end{align*}
+Eller kortere $\varphi(n) =n \prod_{p\mid n} \left(1-\frac{1}{p}\right)$,
+
+Eksempel:
+\begin{align*}
+  \varphi(36)=\varphi\left(2^2
+3^2\right)=36\left(1-\frac{1}{2}\right)\left(1-\frac{1}{3}\right)=36\cdot\frac{1}{2}\cdot\frac{2}{3}=12
+\end{align*}
+
+\subsection{Normafbildning}
+Hvis $N(z_1 z_2) = N(z_1)N(z_2)$ og $N(1) = 1$ gælder
+\begin{equation*}
+  \text{Et element z $\in R$ er en \nameref{Enhed} $\iff N(z) = \pm 1$}
+\end{equation*}
+Bevis:
+\begin{enumerate}[(i)]
+  \item Hvis $z$ er en enhed så $\exists y$ sådan at $zy = 1$, derved $N(zy) =
+  N(z)N(y)$ og derfor $N(z) = \pm 1$
+  \item Hvis $N(z) = \pm 1$ så $z\varphi(z) = \pm 1$ og $z$ er en enhed.
+\end{enumerate}
+Dette er smart at udnytte når vi skal vise om et element er irreducibelt eller
+ej.
+
+\subsubsection{Vis at R ikke er et Hovedidealområde}
+Nok at vise R ikke er en \nameref{Faktoriel ring}.
+Generelt gælder at hvis et element har to forskellige faktoriseringer, og der
+findes en faktor i den ene faktorisering der ikke går op i nogle af faktorerne
+i den anden faktorisering, så er ringen \textit{ikke} en faktoriel ring.
+
+\subsubsection{Antallet af frembringere i $L^*$}
+Bevis 4.5.3 siger antallet af frembringere i $L^* = \varphi(|L^*|)$.
+
+\subsubsection{Simple transpositioner}
+Givet en cykel så start med at tæl inversionerne. Skriv den i 2-række form og
+målet er nu at vi skal ende ud med identiteten. Vi skal bruge lige mange simple
+transpositioner som der er inversioner.

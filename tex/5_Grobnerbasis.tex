@@ -239,3 +239,110 @@ R[X_1,\ldots,X_n]$ være en \nameref{Gröbnerbasis} for \nameref{Ideal}et $I
 \begin{equation*}
   I = \text{\nameref{f_1..f_m}}
 \end{equation*}
+
+\subsubsection{Prop. 5.4.6}
+\label{Prop. 5.4.6}
+Lad $R$ være et \nameref{Legeme}. Lad $G = (f_1, \ldots, f_m)$ være en
+\nameref{Gröbnerbasis} i $R[X_1,\ldots,X_n]$ mht en \nameref{Termordning}
+$\leq$. Så er den entydige rest $r$ i
+\begin{equation*}
+  f = a_1 f_1 + \cdots + a_m f_m + r
+\end{equation*}
+ligesom i \nameref{Prop. 5.3.1}, \textit{entydig} for alle $f \in R$.
+
+Resten fra divisionsalgoritmen er uafhængig af rækkefølgen af elementerne $f_1,
+\ldots, f_m \in G$.
+
+\subsubsection{Sætning 5.4.7}
+\label{Saetning 5.4.7}
+Lad $k$ være et \nameref{Legeme}, $\leq$ en \nameref{Termordning} og $I
+\subseteq k[X_1,\ldots,X_n]$ et \nameref{Ideal}. Så har $I$ en
+\nameref{Gröbnerbasis} mht $\leq$.
+
+\subsubsection{Korollar 5.4.8}
+\label{Korollar 5.4.8}
+Lad $R$ være et \nameref{Legeme}. Lad $I$ være et arbitrært \nameref{Ideal} i
+$R[X_1,\ldots,X_n]$. Så er der endeligt mange polynomier $f_1,\ldots,f_m \in I$
+sådan at ethvert polynomium $f \in I$ kan skrives
+\begin{equation*}
+  f = a_1 f_1 + \cdots + a_m f_m
+\end{equation*}
+for passende $a_1,\ldots,a_m \in R[X_1,\ldots,X_n]$, hvilket vil sige $I =$
+\nameref{f_1..f_m}.
+
+\subsubsection{S-polynomiet}
+\label{S-polynomiet}
+Def. 5.6.5: S-polynomiet af to ikke-nul polynomier $f$ og $g$ mht en
+\nameref{Termordning} $\leq$ er defineret som
+\begin{equation*}
+  S(f,g) = \frac{X^w}{in_{\leq}(f)}f - \frac{X^w}{in_{\leq}(g)}g
+\end{equation*}
+hvor $X^w$ er $lcm(in_{\leq}(f), in_{\leq}(g))$.
+
+\subsection{Newton Genvisit (5.5)}
+\label{Newton Genvisit (5.5)}
+\subsubsection{Sætning 5.5.1}
+\label{Saetning 5.5.1}
+Lad $f,f_1,\ldots,f_r \in k[X_1,\ldots,X_n]$. Lad $I$ være idealet
+\begin{equation*}
+  I = \langle T_1 - f_1,\ldots, T_r - f_r \rangle
+\end{equation*}
+i \nameref{Polynomiumsring}en $A = k[X_1,\ldots,X_n,T_1,\ldots,T_r]$ og $\leq$
+være den \nameref{Leksikografisk ordning} givet ved
+\begin{equation*}
+  T_r \leq \cdots \leq X_n \leq \cdots \leq X_1
+\end{equation*}
+Lad $G$ være en \nameref{Gröbnerbasis} for $I$ mht $\leq$.
+
+Så kan $f$ skrives som et polynomium i $f_1,\ldots,f_r \iff$
+\begin{equation*}
+  f^G \in k[T_1,\ldots,T_r]
+\end{equation*}
+I dette tilfælde er $f = f^G(f_1,\ldots,f_r)$.
+
+\subsection{Buchbergers S-kriterie (5.6)}
+\label{Buchbergers S-kriterie (5.6)}
+\subsubsection{Korollar 5.6.9}
+\label{Korollar 5.6.9}
+En sekvens $F = (f_1, \ldots, f_m)$ af polynomier er en \nameref{Gröbnerbasis}
+$\iff S(f_i, f_j)^F = 0$ for $1 \leq i \leq j \leq m$. Se \nameref{Def. 5.3.2}
+for $S(f_i, f_j)^F$.
+
+\subsection{Buchbergers algoritme (5.7)}
+\label{Buchbergers algoritme (5.7)}
+\subsubsection{Sætning 5.7.2}
+\label{Saetning 5.7.2}
+Buchberger's algoritme terminerer og outputtet er en \nameref{Gröbnerbasis}.
+
+\subsection{Den reducerede Gröbnerbasis (5.8)}
+\label{Den reducerede Gröbnerbasis (5.8)}
+\subsubsection{Minimal Gröbnerbasis}
+\label{Minimal Gröbnerbasis}
+Def 5.8.1: En minimal gröbnerbasis $(f_1,\ldots,f_m)$ er en
+\nameref{Gröbnerbasis} sådan at \begin{enumerate}[(i)]
+  \item $in_{\leq}(f_j) \nmid in_{\leq}(f_i)$ for $i \neq j$.
+  \item Koefficienten af $in_{\leq}(f_i)$ er 1.  
+\end{enumerate}
+
+\subsubsection{Reduceret Gröbnerbasis}
+\label{Reduceret Gröbnerbasis}
+Def 5.8.2: En reduceret gröbnerbasis $(f_1,\ldots,f_m)$ er en \nameref{Minimal
+Gröbnerbasis} hvis $in_{\leq}(f_j) \nmid$ noget led i $f_i$ for $i \neq j$.
+
+\subsubsection{Sætning 5.8.3}
+\label{Saetning 5.8.3}
+Lad $R$ være et \nameref{Legeme}. Ethvert ideal $I \subseteq R[X_1,\ldots,X_n]$
+har en entydig \nameref{Reduceret Gröbnerbasis}.
+
+\subsection{Løsning af ligningssystemer vha Gröbnerbaser (5.9)}
+\label{Loesning af ligningssystemer vha Grobnerbaser (5.9)}
+\subsubsection{Sætning 5.9.1}
+\label{Saetning 5.9.1}
+Lad $R$ være et \nameref{Legeme} og $G = (f_1,\ldots,f_m)$ være en
+\nameref{Gröbnerbasis} for et \nameref{Ideal} $I \subseteq R[X_1,\ldots,X_n]$
+mht den \nameref{Leksikografisk ordning} $\geq$ givet ved $X_n \geq X_{n-1}
+\geq \cdots \geq X_1$.
+
+Så er $G \cap R[X_1,\ldots,X_i]$ en gröbnerbasis for idealet $I \cap
+R[X_1,\ldots,X_i]$ i $R[X_1,\ldots,X_i]$.
+

@@ -32,8 +32,12 @@ Bemærk at 0 er det neutrale element i $(R, +)$.
 \subsubsection{Delring}
 \label{Delring}
 En delmængde $S \subseteq R$ af en \nameref{Ring} R, kaldes en \textbf{delring}
-hvis $S$ er en \nameref{Undergruppe} af $(R, +)$, $1 \in S$ og $xy \in S$ hvis
-$x, y \in S$.
+hvis
+\begin{enumerate}[(i)]
+  \item $S$ er en \nameref{Undergruppe} af $(R, +)$
+  \item $1 \in S$
+  \item $xy \in S$ hvis $x, y \in S$
+\end{enumerate}
 
 \subsubsection{Nuldivisor}
 \label{Nuldivisor}
@@ -269,7 +273,7 @@ opfylder $I$ følgende:
 \end{equation*}
 Hvor $J$ er et andet ideal i $R$.
 
-Så er $I$ det vi kalder et maksimalt ideal i $R$. Hvis $I/R$ er et maksimalt
+Så er $I$ det vi kalder et maksimalt ideal i $R$. Hvis $R/I$ er et maksimalt
 ideal er $R/I$ et legeme.
 
 Bemærk at et maksimalt ideal er et \nameref{Primideal}, da et legeme er et
@@ -500,7 +504,7 @@ R\setminus\myset{0}$ eksisterer $q,r \in R$ sådan at
 \begin{equation*}
   x = qd + r
 \end{equation*}
-hvor enten $r = 0$ eller $N(r) < N(d)$. Se \nameref{1.2.1}.
+hvor enten $r = 0$ eller $N(r) < N(d)$. Se \nameref{Entydig rest}.
 
 For hetalsringen $\Z$ er afbildningen $|\cdot|: \Z \rightarrow \N$ en euklidisk
 afbildning (absolutte værdi).
